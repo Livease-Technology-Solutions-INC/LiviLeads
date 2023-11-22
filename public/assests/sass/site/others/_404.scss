@@ -1,0 +1,29 @@
+.error-page-content {
+    text-align: center;
+    .error-thumbnail {
+        margin-bottom: 55px;
+        border-bottom: 1px solid $color__border-one;
+        @media only screen and (max-width:767px){
+            margin-bottom: 30px;
+        }
+    }
+    .error-title {
+        color: $color__heading;
+        font-size: 24px;
+        margin-bottom: 20px;
+        @media only screen and (max-width:767px){
+            font-size: 22px;
+        }
+    }
+    .error-text {
+        font-size: 15px;
+        line-height: 1.6em;
+        > a {
+            color: $color__primary;
+            &:hover,
+            &:focus {
+                color: $blue_violet;
+            }
+        }
+    }
+}

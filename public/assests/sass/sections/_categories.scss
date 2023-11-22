@@ -1,0 +1,206 @@
+.popular-categories-block {
+    .cat-item {
+        margin-bottom: 30px;
+        display: block;
+        .icon {
+            font-size: 50px;
+            margin-bottom: 0px;
+            min-height: 50px;
+            -webkit-transition: all 0.4s;
+            transition: all 0.4s; 
+            color: $color__primary;
+            margin-bottom: 17px;
+            @media only screen and (max-width: 480px) {
+                font-size: 42px;
+                min-height: 40px; 
+            }
+        }
+        .title {
+            font-size: 21px;
+            -webkit-transition: all 0.35s;
+            transition: all 0.35s;
+            margin-bottom: 0px;
+            @media only screen and (max-width: 480px) {
+                font-size: 18px;
+            }
+        }
+    }
+    &.popular-categories-style-one {
+        .cat-item {
+            min-height: 170px;
+            position: relative;
+            &:before {
+                content: "";
+                height: 100%;
+                width: 100%;
+                bottom: 0;
+                top: 0;
+                position: absolute;
+                background-image: -webkit-linear-gradient(top, rgba($blue_violet,0), rgba($blue_violet,1));
+                background-image: linear-gradient(to bottom, rgba($blue_violet,0), rgba($blue_violet,1));  
+                opacity: 0.6;
+                z-index: 1;
+                -webkit-transition: all 0.35s;
+                transition: all 0.35s;
+            }
+            &.cat-food .listing-no { 
+                background-color: #403E7C;
+            }
+            &.cat-nightlife .listing-no { 
+                background-color: #2AABE2;
+            }
+            &.cat-hotel .listing-no { 
+                background-color: #25D6AF;
+            }
+            &.cat-service .listing-no { 
+                background-color: #FF504D;
+            }
+            &.cat-sopping .listing-no { 
+                background-color: #1C7C67;
+            }
+            &.cat-places .listing-no { 
+                background-color: #CDAF5C;
+            }
+            .cat-thumb img {
+                width: 100%;
+            }
+            .cat-content {
+                width: 100%;
+                height: auto; 
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                z-index: 5;
+                padding: 25px 30px;
+                @media only screen and (min-width: 992px) and (max-width: 1199px) {
+                    padding: 15px 20px;
+                }
+                @media only screen and (max-width: 480px) {
+                    padding: 15px 20px;
+                }
+                .cat-content-inner {
+                    overflow: hidden;
+                }
+            }
+            .icon {
+                opacity: 0;
+                visibility: hidden;
+                margin-bottom: 50px;
+            }
+            .listing-no {
+                font-size: 14px;
+                font-weight: 600;
+                color: $white;
+                -webkit-transition: all 0.3s;
+                transition: all 0.3s;
+                height: 40px;
+                width: 40px;
+                border-radius: 50%;
+                background-color: #403E7C;
+                text-align: center;
+                line-height: 40px;
+                margin-bottom: 15px;
+                @media only screen and (max-width: 480px) {
+                    margin-bottom: 10px;
+                }
+            }
+            .title {
+                color: $white;
+            }
+            .cat-content-hover {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-align: center;
+                    -ms-flex-align: center;
+                        align-items: center;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                        justify-content: center;
+                z-index: 6;
+                .content-hover-inner {
+                    text-align: center;
+                }
+                .title {
+                    opacity: 0;
+                    visibility: hidden;
+                }
+            }
+            &:hover {
+                &:before {
+                    background-color: $blue_violet;
+                }
+                .cat-content-inner {
+                    .title {
+                        -webkit-transform: translateY(100%);
+                                transform: translateY(100%); 
+                        opacity: 0;
+                    }
+                    .listing-no {
+                        -webkit-transform: translateX(-100%);
+                                transform: translateX(-100%); 
+                        opacity: 0;
+                    }
+                }
+                .cat-content-hover {
+                    .title,
+                    .icon {
+                        opacity: 1;
+                        visibility: visible;
+                    }
+                    .icon {
+                        margin-bottom: 15px;
+                    }
+                }
+            }
+        }
+    }
+    &.popular-categories-style-two {
+        .cat-item {
+            box-shadow: 3px 3px 11px rgba($black,0.07);
+            border: 1px solid $color__border-one; 
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            &.cat-food .icon { 
+                color: #40407a;
+            }
+            &.cat-nightlife .icon { 
+                color: #2AABE2;
+            }
+            &.cat-hotel .icon { 
+                color: #33d9b2;
+            }
+            &.cat-service .icon { 
+                color: #ff5252;
+            }
+            &.cat-sopping .icon { 
+                color: #ccae62;
+            }
+            &.cat-places .icon { 
+                color: #ffa337;
+            }
+            .cat-content {
+                text-align: center;
+                padding: 55px 20px 50px;
+                background-color: $white;
+                -webkit-transition: all 0.5s;
+                transition: all 0.5s;
+            }
+            &:hover {
+                .cat-content {
+                    background-color: rgba($blue_violet,0.7);
+                }
+                .icon,
+                .title {
+                    color: $white;
+                }
+            }
+        }
+    }
+}

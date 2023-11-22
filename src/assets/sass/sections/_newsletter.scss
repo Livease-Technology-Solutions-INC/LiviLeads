@@ -1,0 +1,73 @@
+/*-------------------------------------------------
+    [ ### Newsletter Block ]
+*/
+.newsletter-block {
+    .subscribe-form {
+        font-size: 14px;
+        margin-top: -5px;
+        .dv-form {
+            text-align: center;
+        }
+        .form-group {
+            margin-bottom: 40px;
+            @media only screen and (max-width: 767px) {
+                margin-bottom: 20px;
+            }
+            label {
+                display: block;
+                line-height: 1.2em;
+                margin-bottom: 0;
+                text-align: left;
+            }
+            input {
+                color: $color__heading;
+                font-size: 16px;
+                position: relative;
+                width: 100%;
+                background-color: transparent;
+                border-bottom: 1px solid $color__border-one;
+                padding: 0 0 15px !important;
+                text-align: center;
+                @media only screen and (max-width: 767px) {
+                    font-size: 15px;
+                }
+                &:focus {
+                    color: $blue_violet;
+                    border-bottom-color: $color__primary !important;
+                }
+            }
+        }
+    }
+    &.style-two {
+        .subscribe-form .dv-form {
+            text-align: left;
+        }
+        ::-webkit-input-placeholder {
+            color: $white;
+            opacity: 0.75;
+        }
+        .widget_newsletter::-webkit-input-placeholder {
+            color: $white;
+            opacity: 0.75;
+        }
+        :-moz-placeholder {
+            color: $white;
+            opacity: 0.75;
+        }
+        ::-moz-placeholder {
+            color: $white;
+            opacity: 0.75;
+        }
+        :-ms-input-placeholder {
+            color: $white;
+            opacity: 0.75;
+        }
+        .subscribe-form .form-group input {
+            text-align: left;
+            border-color: #5847ac;
+            &:focus {
+                color: $white;
+            }
+        }
+    }
+}
