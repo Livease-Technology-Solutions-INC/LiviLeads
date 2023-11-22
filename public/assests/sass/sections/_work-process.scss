@@ -1,0 +1,51 @@
+/*-------------------------------------------------
+    [ ### Work Process ]
+*/
+.work-process-block {
+    .process-list {
+        position: relative;
+        padding-top: 15px;
+        .bg-line {
+            background-position: center top;
+            background-repeat: no-repeat;
+            background-size: contain;
+            height: 250px;
+            left: 0;
+            position: absolute;
+            top: -40px;
+            width: 100%;
+        }
+        @media only screen and (max-width: 991px) {
+            padding-top: 0px;
+            .bg-line {
+                display: none;
+            }
+        }
+        .single-process {
+            margin-bottom: 40px;
+            text-align: center;
+            .icon {
+                min-height: 100px;
+                margin-bottom: 30px;
+                @media only screen and (max-width: 991px) {
+                    margin-bottom: 20px;
+                }
+            }
+            .process-step {
+                color: $color__heading;
+                font-size: 21px;
+                font-weight: 700;
+                margin-bottom: 0;
+                @media only screen and (max-width: 1199px) {
+                    font-size: 20px;
+                }
+                @media only screen and (max-width: 991px) {
+                    font-size: 18px;
+                }
+                @media only screen and (max-width: 575px) {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}

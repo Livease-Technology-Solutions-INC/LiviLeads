@@ -1,0 +1,19 @@
+html {
+	font-size: 100%;
+}
+
+body {
+    background-color: white;
+    font-family: $font_body;
+    font-size: $base__font-size;
+    font-weight: normal;
+    line-height: $font__line-height-body;
+    color: $color_text_main;
+    @media only screen and (max-width: 1199px) {
+        font-size: 15px;
+    }
+}
+
+@import "headings";
+
+@import "copy";

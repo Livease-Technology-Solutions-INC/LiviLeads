@@ -1,0 +1,175 @@
+.news-block [class*="col-"] {
+	text-align: center;
+}
+
+.post {
+    margin-bottom: 30px;
+    position: relative;
+    min-height: 150px;
+    display: inline-block;
+    text-align: center; 
+    .post-thumb {
+        position: relative;
+        margin-bottom: 0;
+        &:before {
+            content: "";
+            height: 100%;
+            width: 100%;
+            bottom: 0;
+            top: 0;
+            position: absolute;
+            background-image: -webkit-linear-gradient(top, rgba($blue_violet,0), rgba($blue_violet,1));
+            background-image: linear-gradient(to bottom, rgba($blue_violet,0), rgba($blue_violet,1)); 
+            z-index: 1;
+            opacity: 0.5;
+            -webkit-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+        > a {
+            display: inline-block;
+            > img {
+                -webkit-transition: all 0.2s;
+                transition: all 0.2s;
+            }
+        }
+    }
+
+    .entry-title {
+        margin-bottom: 20px;
+        font-weight: 700;
+        color: $white;
+        font-size: 21px;
+        line-height: 1.25em;
+        @media screen and (max-width: 1199px) {
+            font-size: 20px; 
+        }
+        a:hover,
+        a:focus {
+            color: $color__primary; 
+        }
+    }
+    .overlay {
+        position: absolute;
+        top: 20px;
+        width: calc(100% - 40px);
+        height: calc(100% - 40px);
+        left: 20px; 
+        z-index: 3;
+        overflow: hidden; 
+        @media screen and (min-width: 992px) and (max-width: 1199px) {
+            top: 15px;
+            width: calc(100% - 30px);
+            height: calc(100% - 30px);
+            left: 15px; 
+        }
+        @media screen and (max-width: 575px) {
+            top: 15px;
+            width: calc(100% - 30px);
+            height: calc(100% - 30px);
+            left: 15px; 
+        }
+        &:before {
+            background-color: rgba($blue_violet,0.8);
+            position: absolute;
+            content: "";
+            top: 0;
+            height: 0px;
+            width: 100%;
+            z-index: 1;
+            -webkit-transition: all 0.35s cubic-bezier(.59,.45,.83,.67);
+            transition: all 0.35s cubic-bezier(.59,.45,.83,.67);
+            left: 0;
+        }
+        .overlay-inner {
+            position: absolute;
+            z-index: 5;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            -webkit-transition: all 0.4s;
+            transition: all 0.4s; 
+            padding: 0 15px;
+        }
+    }
+    &:hover {
+        .post-thumb:before {
+            opacity: 0;
+        }
+        .overlay:before {
+            height: 100%;
+            bottom: 0; 
+            top: auto;
+        }
+        .overlay .overlay-inner {
+            bottom: 50%;
+            -webkit-transform: translateY(50%);
+                    transform: translateY(50%); 
+        }
+    }
+}
+
+.entry-meta-content { 
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    font-size: 12px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    line-height: 1.4em;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: 600;
+    > div {
+        margin-right: 30px;
+        position: relative;
+        color: $color__meta;
+        &:before {
+            position: absolute;
+            content: "";
+            left: -18px;
+            top: 5px;
+            z-index: 1;
+            width: 7px;
+            height: 7px; 
+            border-radius: 50%;
+            background-color: $color__meta;
+        }
+        &:last-child {
+            margin-right: 0px;
+        }
+        &:first-child:before {
+            width: 0;
+            height: 0;
+        }
+        a {
+            -webkit-transition: color 0.35s;
+            transition: color 0.35s;
+            &:hover,
+            &:focus {
+                color:  $color__primary !important;
+            }
+        }
+    }
+}
+.blog-latest-items [class*="col-"] {
+    text-align: center;
+}
+
+.related-blog-area {
+    .related-blog-title {
+		background-color: $white_smoke;
+		border: 1px solid $color__border-one;
+		padding: 17px 30px;
+		margin-bottom: 30px;
+		font-size: 18px;
+		@media only screen and (max-width: 991px) {
+            padding: 15px;
+        }
+	}
+}

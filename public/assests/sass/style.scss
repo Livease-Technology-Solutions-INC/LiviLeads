@@ -1,0 +1,156 @@
+/*
+Template Name: Qayima
+Template URI: https://themeforest.net/user/creative-wp
+Author: creative-wp
+Author URI: https://themeforest.net/user/creative-wp
+Description: It is a Listing & Directory HTML Temlate. Which is a unique feature and user competitive feature.
+Version: 1.0
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Typography 
+    [ ## Heading ] 
+    [ ## Others Typography ]
+# Elements
+    [ ## Font Size ]
+    [ ## Font Weight ]
+    [ ## Margin Element ]
+    [ ## Padding Element ]
+    [ ## Color Element ]
+    [ ## Background Element ]
+    [ ## Social Element ]
+    [ ## Overlay Element ]
+    [ ## Lists ]
+    [ ## Post, Page, Comments Table ]
+    [ ## Others Element ]
+# Forms
+	[ ## Buttons ]
+	[ ## Fields ]
+# Media
+	[ ## Captions ]
+	[ ## Galleries ]
+	[ ## media ]
+# Modules 
+	[ ## Accessibility ]
+	[ ## Alignments ]
+	[ ## Clearings ]
+	[ ## Infinite Scroll ]
+# Header Content
+	[ ## Header ]
+    [ ## Sticky header ]
+# Navigation
+	[ ## Links ]
+	[ ## Menus ]
+        [ ### Hamburger Menu ]
+	[ ## Pagination ]
+        [ ### Post Navigation ]
+	[ ## Navigation responsive ]
+# layout
+    [ ## Hero Block ]
+    [ ## Pricing ]
+    [ ## Todo ]
+    [ ## Blog ]
+[ # Sections ]
+    [ ## Featured ]
+    [ ## Categories ]
+    [ ## Testimonial ]
+    [ ## Work Process ]
+    [ ## Promo Video ]
+    [ ## Brand ]
+    [ ## Newsletter Block ]
+# Others
+	[ ## Single Posts ]
+# site content
+	[ ## About Page ]
+	[ ## Contact Page ]
+	[ ## Comming Soon ]
+	[ ## Dashboard ]
+	[ ## 404 Page ]
+	[ ## Posts and pages ]
+	    [ ### Page Title ]
+	    [ ### Breadcrumb ]
+	    [ ### No results ]
+	[ ## Comments ]
+	[ ## Widgets ]
+	[ ## Widgets Content ]
+# Footer
+--------------------------------------------------------------*/
+@import "variables-site/variables-site";
+@import "mixins/mixins-master";
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+@import "typography/typography";
+
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+@import "elements/elements";
+
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
+@import "forms/forms";
+
+/*--------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+@import "media/media";
+
+/*--------------------------------------------------------------
+# Accessibility
+--------------------------------------------------------------*/
+@import "modules/accessibility";
+
+/*--------------------------------------------------------------
+# Alignments
+--------------------------------------------------------------*/
+@import "modules/alignments";
+
+/*--------------------------------------------------------------
+# Clearings
+--------------------------------------------------------------*/
+@import "modules/clearings";
+
+/*--------------------------------------------------------------
+# Infinite scroll
+--------------------------------------------------------------*/
+@import "modules/infinite-scroll";
+
+/*--------------------------------------------------------------
+# Header Content
+--------------------------------------------------------------*/
+@import "header/header";
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+@import "navigation/navigation";
+
+/*--------------------------------------------------------------
+# Layout
+--------------------------------------------------------------*/
+@import "layout/layout";
+
+/*--------------------------------------------------------------
+# Sections
+--------------------------------------------------------------*/
+@import "sections/sections";
+
+/*--------------------------------------------------------------
+# Others
+--------------------------------------------------------------*/
+@import "others/others";
+
+/*--------------------------------------------------------------
+# Site Content
+--------------------------------------------------------------*/
+@import "site/site";
+
+/*--------------------------------------------------------------
+# Footer Content
+--------------------------------------------------------------*/
+@import "footer/footer";

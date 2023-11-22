@@ -1,0 +1,161 @@
+.user-profile-list-block {
+    .total-rating {
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        font-size: 12px;
+        > span {
+            background-color: $yellow;
+            color: $white;
+            display: inline-block;
+            margin-right: 10px;
+            text-align: center;
+            width: 35px;
+            font-weight: 500;
+        }
+    }
+    .user-meta {
+        font-size: 16px;
+        margin-bottom: 20px;
+        @media only screen and (max-width: 480px) {
+            font-size: 14px;
+        }
+        > div {
+            margin-bottom: 7px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: start;
+                -ms-flex-align: start;
+                    align-items: flex-start;
+            &:last-child {
+                margin-bottom: 0;
+            }
+            > span {
+                display: inline-block;
+                margin-right: 7px;
+                color: $color__primary;
+                position: relative;
+                top: 3px;
+            }
+        }
+    }
+    .user-profile-info-area {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        @media only screen and (max-width: 767px) {
+            display: block;
+        }
+        .profile-info-left {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: start;
+                -ms-flex-pack: start;
+                    justify-content: flex-start;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+            -webkit-box-flex: 0;
+                -ms-flex: 0 0 210px;
+                    flex: 0 0 210px;
+            max-width: 0 0 210px;
+            @media only screen and (max-width: 767px) {
+                max-width: 100%;
+            }
+            @media only screen and (max-width: 575px) {
+                display: block;
+            }
+            .user-profile-thumb {
+                .profile-thumb {
+                    border: 10px solid $white;
+                    box-shadow: 2px 2px 10px rgba($black,0.1);
+                    display: inline-block;
+                }
+            }
+        }
+        .profile-info-right {
+            -webkit-box-flex: 0;
+                -ms-flex: 0 0 calc(100% - 210px);
+                    flex: 0 0 calc(100% - 210px);
+            max-width: calc(100% - 210px);
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+            -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
+            padding-left: 55px;
+            @media only screen and (max-width: 1199px) {
+                padding-left: 30px;
+            }
+            @media only screen and (max-width: 767px) {
+                padding-left: 0px;
+                padding-top: 25px;
+                max-width: 100%;
+            }
+            .todo-rating,
+            .listing-todo-feature-list {
+                -webkit-box-pack: end;
+                    -ms-flex-pack: end;
+                        justify-content: flex-end;
+            }
+            .todo-rating {
+                margin-bottom: 30px;
+            }
+            .listing-todo-feature-list {
+                margin-bottom: 25px;
+            }
+            .info {
+                @media only screen and (max-width: 991px) {
+                    margin-bottom: 15px;
+                }
+                .user-name {
+                    font-size: 42px;
+                    font-weight: 600;
+                    line-height: 1.25em;
+                    margin-bottom: 20px;
+                    margin-top: -8px;
+                    @media only screen and (max-width: 991px) {
+                        font-size: 32px;
+                        margin-bottom: 10px;
+                    }
+                    @media only screen and (max-width: 480px) {
+                        font-size: 28px;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+.text-content {
+	h1 {
+	    margin-top: 0;
+	    margin-bottom: 20px;
+	}
+	h1 strong {
+	    font-weight: 900;
+	}
+	h1, h2, h3, h4, h5, h6 {
+		margin: 0 0 15px;
+	}
+	p {
+		font-size: 15px;
+	}
+}

@@ -1,0 +1,106 @@
+.coming-soon-block {
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.coming-soon-content {
+    .site-logo {
+        margin-bottom: 45px;
+        @media only screen and (max-width:991px){
+            margin-bottom: 25px;
+        }
+    }
+    .title {
+        color: $white;
+        font-size: 18px;
+        line-height: 1.7em;
+        font-weight: 700;
+        padding: 0 160px;
+        margin-bottom: 55px;
+        @media only screen and (max-width:1199px){
+            padding: 0 90px;
+        }
+        @media only screen and (max-width:991px){
+            margin-bottom: 35px;
+        }
+        @media only screen and (max-width:767px){
+            padding: 0px;
+            font-size: 16px;
+        }
+    }
+    .social-status-two a {
+        color: $white;
+    }
+}
+
+.countdown-area {
+    margin-bottom: 30px;
+    @media only screen and (max-width:991px){
+        margin-bottom: 20px;
+    }
+    .timer-body-block {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        margin: 0 -15px; 
+        -webkit-box-pack: center; 
+            -ms-flex-pack: center; 
+                justify-content: center;
+        > .table-cell {
+            -webkit-box-flex: 0;
+                -ms-flex: 0 0 calc(25% - 30px);
+                    flex: 0 0 calc(25% - 30px);
+            max-width: calc(25% - 30px);
+            text-align: center;
+            margin: 0 15px 30px;
+            background-color: rgba($white, 0.06);
+            @media only screen and (max-width:1199px){
+                -webkit-box-flex: 0;
+                    -ms-flex: 0 0 calc(35% - 30px);
+                        flex: 0 0 calc(35% - 30px);
+                max-width: calc(35% - 30px);
+            }
+            @media only screen and (max-width:767px){
+                -webkit-box-flex: 0;
+                    -ms-flex: 0 0 calc(50% - 30px);
+                        flex: 0 0 calc(50% - 30px);
+                max-width: calc(50% - 30px);
+            }
+            @media only screen and (max-width:420px){
+                -webkit-box-flex: 0;
+                    -ms-flex: 0 0 calc(80% - 30px);
+                        flex: 0 0 calc(80% - 30px);
+                max-width: calc(80% - 30px);
+            }
+            > .tab-val {
+                font-size: 82px;
+                font-weight: lighter;
+                margin-bottom: 0px;
+                line-height: 0.9em;
+                color: $white;
+                padding: 35px 10px;
+                @media only screen and (max-width:767px){
+                    font-size: 70px;
+                }
+                @media only screen and (max-width:575px){
+                    font-size: 50px;
+                }
+            }
+            > .tab-metr {
+                font-size: 14px;
+                font-weight: 600;
+                text-transform: uppercase;
+                letter-spacing: 0.1em;
+                color: $white;
+                background-color: $color__primary;
+                padding: 13px 0;
+            }
+        }
+    }
+}

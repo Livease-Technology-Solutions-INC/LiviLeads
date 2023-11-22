@@ -1,0 +1,409 @@
+//Hamburger Menu Icons
+.hamburger-menus {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    -webkit-transition: .1s;
+    transition: .1s;
+    margin: 15px 0px;
+    cursor: pointer;
+    display: none;
+    top: 4px;
+    span {
+        width: 5px;
+        height: 5px;
+        background-color: $blue_violet;
+        display: block;
+        border-radius: 50%;
+        &:nth-child(1) {
+            position: absolute;
+            left: 0;
+            top: 0;
+        }			
+        &:nth-child(2) {
+            position: absolute;
+            left: 12px;
+            top: 0;
+        }			
+        &:nth-child(3) {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }			
+        &:nth-child(4) {
+            position: absolute;
+            left: 0;
+            top: 12px;
+        }			
+        &:nth-child(5) {
+            position: absolute;
+            left: 12px;
+            top: 12px;
+        }			
+        &:nth-child(6) {
+            position: absolute;
+            right: 0px;
+            top: 12px;
+        }			
+        &:nth-child(7) {
+            position: absolute;
+            left: 0px;
+            bottom: 0px;
+        }			
+        &:nth-child(8) {
+            position: absolute;
+            left: 12px;
+            bottom: 0px;
+        }			
+        &:nth-child(9) {
+            position: absolute;
+            right: 0px;
+            bottom: 0px;
+        }
+    }
+    &:hover {
+        span {
+            -webkit-transform: scale(1.3);
+                    transform: scale(1.3);
+            -webkit-transition: 350ms cubic-bezier(.8, .5, .2, 1.4);
+            transition: 350ms cubic-bezier(.8, .5, .2, 1.4);
+            box-shadow: 0px 2px 3px rgba(0,0,0,.4); 
+        }
+    }
+    &.click-menu {
+        -webkit-transform: rotate(180deg);
+                transform: rotate(180deg);
+        cursor: pointer;
+        -webkit-transition: .2s cubic-bezier(.8, .5, .2, 1.4);
+        transition: .2s cubic-bezier(.8, .5, .2, 1.4);
+        span {
+            border-radius: 50%;
+            -webkit-transition-delay: 200ms;
+                    transition-delay: 200ms;
+            background-color: rgba($blue_violet, 0.767);
+            -webkit-transition: .5s cubic-bezier(.8, .5, .2, 1.4);
+            transition: .5s cubic-bezier(.8, .5, .2, 1.4);
+            &:nth-child(2) {
+                position: absolute;
+                left: 6px;
+                top: 6px;
+            }				
+            &:nth-child(4) {
+                position: absolute;
+                left: 6px;
+                top: 18px;
+            }				
+            &:nth-child(6) {
+                position: absolute;
+                right: 6px;
+                top: 6px;
+            }				
+            &:nth-child(8) {
+                position: absolute;
+                left: 18px;
+                bottom: 6px;
+            }
+        }
+    }
+}
+
+.navigation.menuopen {
+    .menu-content > li {
+        width: 240px;
+        display: block;
+        float: none;
+        border-right: none;
+        background-color: transparent;
+        position: relative;
+        text-align: left;
+        white-space: inherit;
+    }
+    .menu-wrapper {
+        position: relative;
+        z-index: 9999;
+        height: 100%;
+        .mainmenu li {
+            position: relative;
+            display: block;
+            a > [class*="fa-"] {
+                display: none;
+            }
+        }
+    }
+}
+
+
+.overlaybg {
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.45);
+    cursor: pointer;
+}
+
+.navigation.menuopen {
+    left: 0;
+    @include prefixed(transition,all 0.4s ease-in-out);
+    background: $color__heading;
+    overflow-y: auto;
+    overflow-x: hidden;
+    .mainmenu > li > a {
+        -webkit-backface-visibility: hidden;
+                backface-visibility: hidden;
+        color: #fff;
+        display: block;
+        font-weight: 600;
+        line-height: 30px;
+        overflow: hidden;
+        padding: 12px 20px;
+        position: relative;
+        text-decoration: none;
+        text-align: left;
+        -webkit-transform: translateZ(0px);
+        transform: translateZ(0px);
+        vertical-align: middle;
+        letter-spacing: 0.015em;
+        border-top: 1px solid rgba($white,0.1);
+        &.active,
+        &:hover {
+            color: $color__primary;
+        }
+    }
+    ul.mainmenu {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+    ul.sub-menu {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: none;
+        background-color: transparent;
+        li a {
+            padding: 12px 32px 12px 25px;
+            letter-spacing: 0;
+            border-right: solid 0px;
+            background-color: transparent;
+            line-height: 25px;
+            border-top: 1px solid rgba($white,0.1);
+            position: relative;
+            color: $white;
+            letter-spacing: 0.015em;
+            display: block;
+            text-transform: capitalize;
+            &:hover {
+                color: $color__primary;
+                padding-left: 30px;
+            }
+        }
+        > .sub-menu > li > a {
+            padding-left: 30px;
+            &:hover {
+                padding-left: 35px;
+            }
+        }
+    }
+    .megamenu {
+        position: relative !important;
+        .megamenu-main {
+            padding: 0 20px 25px !important;
+            position: relative;
+            opacity: 1;
+            visibility: visible;
+            -webkit-transform: none;
+                    transform: none;
+            &:before {
+                display: none;
+            }
+            .megamenu-heading {
+                display: none;
+            }
+            .custom-megamenu li a {
+                font-weight: normal;
+                padding: 10px 25px;
+                font-size: 15px;
+                font-weight: 600;
+                &:hover {
+                    padding-left: 30px;
+                }
+            }
+        }
+        .megamenu-wrapper {
+            .megamenu-container {
+                padding: 0px;
+            }
+            .row {
+                display: block;
+                margin: 0px;
+                [class*="col-"] {
+                    max-width: 100%;
+                    padding: 0px;
+                }
+            }
+        }
+    }
+}
+
+.menu-click {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+    cursor: pointer;
+    z-index: 120;
+    width: 100%;
+    @media only screen and (max-width: 1199px) {
+        display: block;
+    }
+    i {
+        display: block;
+        background-size: 25px;
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.35);
+        float: right;
+        padding: 21px;
+        width: 54px;
+        @include prefixed(transition, transform 0.1s ease);
+    }
+}
+.menu-extend.fa-plus:before {
+    content: "\f068";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+@media only screen and (max-width: 1199px) {
+    .site-header.header-style-one,
+    .site-header.default-header-style {
+        z-index: 99;
+        .hamburger-menus {
+            display: inline-block;
+        }
+        .menuopen .overlaybg {
+            display: block;
+        }
+        .navigation {
+            left: -100%;
+            position: relative;
+            width: 280px;
+            height: 100%;
+            position: fixed;
+            left: -100%;
+            padding: 0;
+            top: 0;
+            margin: 0;
+            z-index: 99999;
+            @include prefixed(transition,all 0.4s ease-in-out);
+            border: none;
+            ul.sub-menu {
+                display: none;
+            }
+            .menu-wrapper {
+                display: none;
+            }
+        }
+        .navigation.menuopen {
+            left: 0;
+            .menu-wrapper {
+                display: block;
+            }
+        }
+    }
+}
+.site-header.header-style-two {
+    z-index: 99;
+    .hamburger-menus {
+        display: inline-block;
+        &.click-menu {
+            -webkit-transform: rotate(0);
+                    transform: rotate(0);
+        }
+    }
+    .menuopen .overlaybg {
+        display: block;
+        opacity: 0;
+    }
+    .navigation {
+        left: -100%;
+        position: relative;
+        width: 260px;
+        height: calc(100% - 104px);
+        position: fixed; 
+        left: -100%;
+        padding: 0;
+        top: 104px;
+        margin: 0;
+        z-index: 99999;
+        @include prefixed(transition,all 0.4s ease-in-out);
+        border: none;
+        box-shadow: 3px 4px 5px rgba($black ,0.05);
+        ul.sub-menu {
+            display: none;
+        }
+        .menu-wrapper {
+            display: none;
+        }
+    }
+    .navigation.menuopen {
+        left: 0;
+        background-color: $white;
+        .menu-wrapper {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            background-color: $white;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+            padding: 25px 0;
+            .menu-content {
+                max-width: 100%;
+                -webkit-box-flex: 0;
+                    -ms-flex: 0 0 100%;
+                        flex: 0 0 100%;
+            }
+        }
+        .mainmenu > li {
+            > a {
+                padding: 10px 30px;
+                color: $color__heading;
+            }
+            &:hover > a {
+                color: $color__primary;
+            }
+        }
+        ul.sub-menu li {
+            a {
+                color: $color__heading;
+                padding: 8px 30px;
+                font-weight: 500;
+            }
+            &:hover > a {
+                color: $color__primary;
+            }
+        }
+    }
+    .menu-click {
+        display: block;
+        right: 5px;
+        .menu-arrow {
+            color: $color__heading;
+            &.menu-extend {
+                -webkit-transform: rotate(90deg);
+                        transform: rotate(90deg);
+            }
+        }
+    }
+}
+
+
