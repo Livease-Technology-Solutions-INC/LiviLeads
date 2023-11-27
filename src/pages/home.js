@@ -1,13 +1,31 @@
 import React from "react";
-import   '../assets/images/logo/footer-logo.png';
-
+import logimg from  '../assets/images/logo/lg.png';
+import sideB from  '../assets/images/categories/side bs.jpg';
+import ecoB from  '../assets/images/categories/eco bs.jpg';
+import onlineB from  '../assets/images/categories/online bs.jpg';
+import seo  from  '../assets/images/categories/dg seo.jpg';
+import web  from  '../assets/images/categories/build website.jpg';
+import log  from  '../assets/images/categories/logcr.jpg';
+import wedimg  from  '../assets/images/todo/photography.jpg';
+import businessimg  from  '../assets/images/todo/business (1).jpg';
+import progmimg  from  '../assets/images/todo/programmer.jpg';
+import profficeimg  from  '../assets/images/todo/prooffice.jpg';
+import servimg  from  '../assets/images/todo/service market.jpg';
+import homeimg  from  '../assets/images/todo/home service.jpg';
+import visaimg  from  '../assets/images/todo/visaguy (1).jpg';
+import eleimg  from  '../assets/images/todo/elect.jpg';
+import docimg  from  '../assets/images/todo/documentation.jpg';
+import brandimg from '../assets/images/brand/1.png';
+import processimg from '../assets/images/icon/process1.png';
+import processimg2 from '../assets/images/icon/process2.png';
+import processimg3 from '../assets/images/icon/process3.png';
+import lineimg from '../assets/images/others/linearrow.png';
 class Home  extends React.Component{
     
     render(){
         return(
 
             <div class="site-content">
-
             <header class="site-header header-style-one">
                 <div class="container-fluid">
                     <div class="row align-items-center">
@@ -17,7 +35,7 @@ class Home  extends React.Component{
                                    
                                     <div class="site-branding">
                                         <a href="index.html"> 
-                                            <img src="assets/images/logo/LG.png"  alt="Livi Leads" />
+                                            <img src={logimg}  alt="Livi Leads" />
                                         </a>
                                     </div>
                                     <div class="mobile-element-meta">
@@ -495,7 +513,7 @@ class Home  extends React.Component{
                         <div class="col-lg-6">
                             <a href="#" class="cat-item cat-food">
                                 <figure class="cat-thumb">  
-                                    <img src="assets/images/categories/side bs.jpg" alt="Thmubnail" /> 
+                                    <img src={sideB} alt="Thmubnail" /> 
                                 </figure>
                                 
                                 <div class="cat-content">
@@ -519,7 +537,7 @@ class Home  extends React.Component{
                         <div class="col-lg-3 col-md-6">
                             <a href="#" class="cat-item cat-nightlife">
                                 <figure class="cat-thumb">  
-                                    <img src="assets/images/categories/eco bs.jpg" alt="Thmubnail" /> 
+                                    <img src={ecoB} alt="Thmubnail" /> 
                                 </figure>
                                 
                                 <div class="cat-content">
@@ -543,7 +561,7 @@ class Home  extends React.Component{
                         <div class="col-lg-3 col-md-6">
                             <a href="#" class="cat-item cat-hotel">
                                 <figure class="cat-thumb">  
-                                    <img src="assets/images/categories/build website.jpg" alt="Thmubnail" /> 
+                                    <img src={web} alt="Thmubnail" /> 
                                 </figure>
                                 
                                 <div class="cat-content">
@@ -567,7 +585,7 @@ class Home  extends React.Component{
                         <div class="col-lg-3 col-md-6">
                             <a href="#" class="cat-item cat-service">
                                 <figure class="cat-thumb">  
-                                    <img src="assets/images/categories/logcr.jpg" alt="Thmubnail" /> 
+                                    <img src={log} alt="Thmubnail" /> 
                                 </figure>
                                 
                                 <div class="cat-content">
@@ -591,7 +609,7 @@ class Home  extends React.Component{
                         <div class="col-lg-3 col-md-6">
                             <a href="#" class="cat-item cat-sopping">
                                 <figure class="cat-thumb">  
-                                    <img src="assets/images/categories/online bs.jpg " alt="Thmubnail" /> 
+                                    <img src={onlineB} alt="Thmubnail" /> 
                                 </figure>
                                 
                                 <div class="cat-content">
@@ -615,7 +633,7 @@ class Home  extends React.Component{
                         <div class="col-lg-6">
                             <a href="#" class="cat-item cat-places">
                                 <figure class="cat-thumb">  
-                                    <img src="assets/images/categories/dg seo.jpg" alt="Thmubnail" /> 
+                                    <img src={seo} alt="Thmubnail" /> 
                                 </figure>
                                 
                                 <div class="cat-content">
@@ -645,7 +663,7 @@ class Home  extends React.Component{
                             
                             <div class="brands-carousel owl-carousel">
                                 <div class="brands-link">
-                                    <img src="assets/images/brand/1.png" alt="logo" />
+                                    <img src= {brandimg} alt="logo" />
                                 </div>
                                 <div class="brands-link">
                                     <img src="assets/images/brand/2.png" alt="logo" />
@@ -656,9 +674,7 @@ class Home  extends React.Component{
                                 <div class="brands-link">
                                     <img src="assets/images/brand/4.png" alt="logo" />
                                 </div>
-                                <div class="brands-link">
-                                    <img src="assets/images/brand/4.png" alt="logo" />
-                                </div>
+                               
                             </div>
                         </div>
                     </div>
@@ -689,7 +705,7 @@ class Home  extends React.Component{
                             <div class="todo-item">
                                 <div class="todo-thumbnail-area">
                                     <figure class="item-thumb">  
-                                        <img src="assets/images/todo/photography.jpg" alt="Thmubnail" /> 
+                                        <img src={wedimg} alt="Thmubnail" /> 
                                     </figure>
                                     <div class="todo-overlay-info">
                                         <div class="todo-type-cat">
@@ -726,7 +742,7 @@ class Home  extends React.Component{
                             <div class="todo-item status-closed">
                                 <div class="todo-thumbnail-area">
                                     <figure class="item-thumb">  
-                                        <img src="assets/images/todo/business (1).jpg" alt="Thmubnail" /> 
+                                        <img src={businessimg} alt="Thmubnail" /> 
                                     </figure>
                                     <div class="todo-overlay-info">
                                         <div class="todo-type-cat">
@@ -762,7 +778,7 @@ class Home  extends React.Component{
                             <div class="todo-item">
                                 <div class="todo-thumbnail-area">
                                     <figure class="item-thumb">  
-                                        <img src="assets/images/todo/programmer.jpg" alt="Thmubnail" /> 
+                                        <img src={progmimg} alt="Thmubnail" /> 
                                     </figure>
                                     <div class="todo-overlay-info">
                                         <div class="todo-type-cat">
@@ -799,7 +815,7 @@ class Home  extends React.Component{
                             <div class="todo-item">
                                 <div class="todo-thumbnail-area">
                                     <figure class="item-thumb">  
-                                        <img src="assets/images/todo/service market.jpg" alt="Thmubnail" /> 
+                                        <img src={servimg} alt="Thmubnail" /> 
                                     </figure>
                                     <div class="todo-overlay-info">
                                         <div class="todo-type-cat">
@@ -834,7 +850,7 @@ class Home  extends React.Component{
                             <div class="todo-item status-closed">
                                 <div class="todo-thumbnail-area">
                                     <figure class="item-thumb">  
-                                        <img src="assets/images/todo/visaguy (1).jpg" alt="Thmubnail" /> 
+                                        <img src={visaimg} alt="Thmubnail" /> 
                                     </figure>
                                     <div class="todo-overlay-info">
                                         <div class="todo-type-cat">
@@ -871,7 +887,7 @@ class Home  extends React.Component{
                             <div class="todo-item">
                                 <div class="todo-thumbnail-area">
                                     <figure class="item-thumb">  
-                                        <img src="assets/images/todo/home service.jpg" alt="Thmubnail" /> 
+                                        <img src={homeimg} alt="Thmubnail" /> 
                                     </figure>
                                     <div class="todo-overlay-info">
                                         <div class="todo-type-cat">
@@ -907,7 +923,7 @@ class Home  extends React.Component{
                             <div class="todo-item status-closed">
                                 <div class="todo-thumbnail-area">
                                     <figure class="item-thumb">  
-                                        <img src="assets/images/todo/documentation.jpg" alt="Thmubnail" /> 
+                                        <img src={docimg} alt="Thmubnail" /> 
                                     </figure>
                                     <div class="todo-overlay-info">
                                         <div class="todo-type-cat">
@@ -943,7 +959,7 @@ class Home  extends React.Component{
                             <div class="todo-item status-closed">
                                 <div class="todo-thumbnail-area">
                                     <figure class="item-thumb">  
-                                        <img src="assets/images/todo/elect.jpg" alt="Thmubnail" /> 
+                                        <img src={eleimg}alt="Thmubnail" /> 
                                     </figure>
                                     <div class="todo-overlay-info">
                                         <div class="todo-type-cat">
@@ -981,7 +997,7 @@ class Home  extends React.Component{
                             <div class="todo-item">
                                 <div class="todo-thumbnail-area">
                                     <figure class="item-thumb">  
-                                        <img src="assets/images/todo/prf.jpg" height="50px" alt="Thmubnail" /> 
+                                        <img src={profficeimg} height="50px" alt="Thmubnail" /> 
                                     </figure>
                                     <div class="todo-overlay-info">
                                         <div class="todo-type-cat">
@@ -1022,7 +1038,8 @@ class Home  extends React.Component{
             
             <div class="work-process-block ptb-100">
                         <div class="container ml-b-45">
-                            <div class="row">
+                            <div class="row"  style={{ lineimg }} >
+                            
                                
                                 <div class="col-12">
                                     <div class="section-title text-center">
@@ -1044,7 +1061,7 @@ class Home  extends React.Component{
                                 <div class="col-lg-4 col-md-6">
                                     <div class="single-process">
                                         <div class="icon">
-                                            <img src="assets/images/icon/process3.png" alt="Icon" />
+                                            <img src={processimg} alt="Icon" />
                                         </div>
                                         <h2 class="process-step">Choose What To Do</h2>
                                     </div>
@@ -1054,7 +1071,7 @@ class Home  extends React.Component{
                                 <div class="col-lg-4 col-md-6">
                                     <div class="single-process">
                                         <div class="icon">
-                                            <img src="assets/images/icon/process2.png" alt="Icon" />
+                                            <img src={processimg2} alt="Icon" />
                                         </div>
                                         <h2 class="process-step">Find What You Want</h2>
                                     </div>
@@ -1062,7 +1079,7 @@ class Home  extends React.Component{
                                 <div class="col-lg-4 col-md-6">
                                     <div class="single-process">
                                         <div class="icon">
-                                            <img src="assets/images/icon/process1.png" alt="Icon"/>
+                                            <img src={processimg3} alt="Icon"/>
                                         </div>
                                         <h2 class="process-step">Explore Place  & Enjoy</h2>
                                     </div>
@@ -1149,7 +1166,7 @@ class Home  extends React.Component{
                 <div class="row align-items-center">
                     <div class="col-lg-3">
                         <div class="footer-logo">
-                            <a href="index.html"><img src="assets/images/logo/footer-logo.png" alt="Logo" /></a>
+                            <a href="index.html"><img src={logimg} alt="Logo" /></a>
                       
                         </div>
                     </div>
