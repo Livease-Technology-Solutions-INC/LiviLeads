@@ -16,6 +16,9 @@ import visaimg  from  '../assets/images/todo/visaguy (1).jpg';
 import eleimg  from  '../assets/images/todo/elect.jpg';
 import docimg  from  '../assets/images/todo/documentation.jpg';
 import brandimg from '../assets/images/brand/1.png';
+import brandimg2 from '../assets/images/brand/2.png';
+import brandimg3 from '../assets/images/brand/3.png';
+import brandimg4 from '../assets/images/brand/4.png';
 import processimg from '../assets/images/icon/process1.png';
 import processimg2 from '../assets/images/icon/process2.png';
 import processimg3 from '../assets/images/icon/process3.png';
@@ -666,13 +669,13 @@ class Home  extends React.Component{
                                     <img src= {brandimg} alt="logo" />
                                 </div>
                                 <div class="brands-link">
-                                    <img src="assets/images/brand/2.png" alt="logo" />
+                                    <img src={brandimg2} alt="logo" />
                                 </div>
                                 <div class="brands-link">
-                                    <img src="assets/images/brand/3.png" alt="logo" />
+                                    <img src={brandimg3} alt="logo" />
                                 </div>
                                 <div class="brands-link">
-                                    <img src="assets/images/brand/4.png" alt="logo" />
+                                    <img src={brandimg4} alt="logo" />
                                 </div>
                                
                             </div>
