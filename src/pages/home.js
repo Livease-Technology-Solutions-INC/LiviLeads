@@ -22,7 +22,7 @@ import brandimg4 from '../assets/images/brand/4.png';
 import processimg from '../assets/images/icon/process1.png';
 import processimg2 from '../assets/images/icon/process2.png';
 import processimg3 from '../assets/images/icon/process3.png';
-import lineimg from '../assets/images/others/linearrow.png';
+import iconlineimg from '../assets/images/others/linearrow.png';
 class Home  extends React.Component{
     
     render(){
@@ -1041,12 +1041,12 @@ class Home  extends React.Component{
             
             <div class="work-process-block ptb-100">
                         <div class="container ml-b-45">
-                            <div class="row"  style={{ lineimg }} >
+                            <div class="row"  style={{iconlineimg}} >
                             
                                
                                 <div class="col-12">
                                     <div class="section-title text-center">
-                                        <h4 class="title-sub">easy steps in few moments</h4>
+                                        <h4 class="title-sub">Easy steps in few moments</h4>
                                         <h2 class="title-main">How Does It Work</h2>
                                         <div class="divider">
                                             <span class="icon-star-full"></span>
