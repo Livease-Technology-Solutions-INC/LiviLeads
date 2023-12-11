@@ -57,7 +57,6 @@ class Home  extends React.Component{
                                     </div>
                                 </div>
             
-                               
                                 <div class="site-navigation">
                                     <div class="hamburger-menus">
                                         <span></span>

@@ -2,7 +2,7 @@
     [ ## Border Element ]
 */
 .bd-t-soft-nero {
-	border-top: 1px solid $soft_nero;
+	border-top: 1px solid ;
 }
 .bd-t-white-20 {
 	border-top: 1px solid rgba(255,255,255,0.20);
@@ -15,7 +15,7 @@
     span {
         width: 13px;
         height: 13px;
-        border: 3px solid $harley_davidson_orange;
+        border: 3px solid;
         display: inline-block;
         position: relative;
         transform: rotate(45deg);
@@ -42,10 +42,10 @@
 .vertical-divider {
     width: 2px;
     height: 65px;
-    background: $harley_davidson_orange;
+    background: darkgoldenrod;
 }
 .horizontal-divider {
     width: 65px;
     height: 2px;
-    background: $harley_davidson_orange;
+    background: orange;
 }

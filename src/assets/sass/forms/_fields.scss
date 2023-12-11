@@ -42,12 +42,12 @@ input:-webkit-autofill,
 textarea:-webkit-autofill,
 select:-webkit-autofill {
     -webkit-box-shadow: 0 0 0px 1000px rgba($black, 0) inset;
-    -webkit-text-fill-color: $color_text_main !important;
+    -webkit-text-fill-color: color_text_main !important;
 }
 
 input:-webkit-autofill:focus {
     -webkit-box-shadow: 0 0 0px 1000px rgba($black, 0) inset;
-    -webkit-text-fill-color: $color_text_main !important;
+    -webkit-text-fill-color: color_text_main !important;
 }
 
 input:-webkit-autofill,
@@ -79,31 +79,31 @@ textarea {
 
 // Placeholder Color
 ::-webkit-input-placeholder {
-    color: $color_text_main;
+    color: color_text_main;
 }
 .widget_newsletter::-webkit-input-placeholder {
     color: #808080;
 }
 
 :-moz-placeholder {
-    color: $color_text_main;
+    color: color_text_main;
     opacity: 1;
 }
 
 ::-moz-placeholder {
-    color: $color_text_main;
+    color: color_text_main;
     opacity: 1;
 }
 
 :-ms-input-placeholder {
-    color: $color_text_main;
+    color: color_text_main;
 }
 
 // Form Controls
 .form-controller {
     font-size: 13px;
-    border: 1px solid $color__border-one;
-    background: $white;
+    border: 1px solid color__border-one;
+    background: white;
     width: 100%;
     padding: 0.5em 1em;
     outline: none;
@@ -142,7 +142,7 @@ textarea {
     -ms-user-select: none;
     user-select: none;
     position: relative;
-    border-bottom: 1px solid $color__border-one;
+    border-bottom: 1px solid color__border-one;
     @media only screen and (max-width:575px){
         padding: 0px 0 10px;
     }
@@ -154,7 +154,7 @@ textarea {
         position: absolute;
         right: 0px;
         top: 0;
-        color: $black;
+        color: black;
         -webkit-transition: all 0.15s ease-in-out;
         transition: all 0.15s ease-in-out;
         font-weight: 800;
@@ -180,13 +180,13 @@ textarea {
             }
         }
         &:hover {
-            background-color: $color__primary;
-            color: $white;
+            background-color: color__primary;
+            color: white;
         }
     }
     .current {
         display: block;
-        color: $black;
+        color: black;
         font-size: 16px;
         font-weight: 500;
         @media only screen and (max-width:575px){
@@ -282,7 +282,7 @@ textarea {
                 padding-left: 22px; 
             }
             &:before {
-                border: 1px solid $color__border-one;
+                border: 1px solid color__border-one;
                 content: "";
                 height: 14px;
                 left: 1px;
@@ -300,7 +300,7 @@ textarea {
                 -webkit-transition: all 0.15s ease-in 0s;
                 transition: all 0.15s ease-in 0s;
                 font-family: "icomoon";
-                color: $color__primary; 
+                color: color__primary; 
                 font-size: 10px;
             }
         }
