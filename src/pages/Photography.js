@@ -601,7 +601,8 @@ class Photography extends React.Component{
   
 
     );
-        }
+        
+    }
     }
 
     export default Photography;
