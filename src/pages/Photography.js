@@ -168,7 +168,7 @@ class Photography extends React.Component{
                                                             <input id="name" name="name" class="form-controllar" type="text" placeholder="Username" />
                                                             <span class="icon-user-1"></span>
                                                         </div>
-                                                        <div class="form-group">
+                                           <div class="form-group">
                                                             <input id="email-up" name="email" class="form-controllar" type="email" placeholder="Email Address" />
                                                             <span class="icon-user-1"></span>
                                                         </div>
@@ -242,7 +242,7 @@ class Photography extends React.Component{
                     <img src="assets/images/todo/single/slide/img6.jpg" alt="thumb">
                 </div>
               
-        </div><!--~~./ end page title area ~~--> 
+        </div>
         
         </div>
        
@@ -296,7 +296,7 @@ class Photography extends React.Component{
                             <div class="todo-thumbnail-area">
                                 <figure class="item-thumb">  
                                     <img src="assets/images/todo/single/photo/travel.jpg" alt="Thmubnail"> 
-                                </figure><!--./ item-thumb -->
+                                </figure>
                                 <div class="todo-overlay-info">
                                     <div class="todo-type-cat">
                                         <div class="todo-rating">
