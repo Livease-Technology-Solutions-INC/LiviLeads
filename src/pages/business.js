@@ -1,5 +1,5 @@
 import React from "react";
-class Photography extends React.Component{
+class Business extends React.Component{
     
     render(){
         return(
@@ -829,5 +829,5 @@ class Photography extends React.Component{
     }
     }
 
-    export default Photography;
+    export default Business;
   

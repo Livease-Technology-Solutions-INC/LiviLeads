@@ -294,8 +294,7 @@ class Photography extends React.Component{
                                 <div class="todo-overlay-info">
                                     <div class="todo-type-cat">
                                         <div class="todo-rating">
-                                            <span>4.8</span>19 Ratings
-                                        </div>
+                                            <span>4.8</span>19 Ratings </div>
                                     </div>
                                     
                                 </div>
@@ -354,8 +353,7 @@ class Photography extends React.Component{
     </div>
 </div>
 
-    
-                      <div class="col-lg-4 col-md-6">
+  <div class="col-lg-4 col-md-6">
                         <div class="todo-item">
                             <div class="todo-thumbnail-area">
                                 <figure class="item-thumb">  

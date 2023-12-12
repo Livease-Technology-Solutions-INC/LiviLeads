@@ -20,6 +20,7 @@ function App() {
     <div >
        <Home />
        <Photography />
+       <Business />
       
     </div>
   );
