@@ -55,8 +55,8 @@ class Business extends React.Component{
                                 <span></span>
                             </div>
                             <nav class="navigation">
-                                <div class="overlaybg"></div><!-- /.overlaybg -->
-                                <!-- Main Menu -->        
+                                <div class="overlaybg"></div>
+                               
                                 <div class="menu-wrapper">
                                     <div class="menu-content">
                                         <ul class="mainmenu">         
@@ -79,8 +79,8 @@ class Business extends React.Component{
                                                             <div class="cat-content-inner">
                                                                 <p class="listing-no">20</p>
                                                                 <h3 class="title">Nightlife</h3><!--./ title -->
-                                                            </div><!--./ cat-content-inner -->
-                                                        </div><!--./ cat-content -->
+                                                            </div>
+                                                        </div>
                                                         <div class="cat-content-hover">
                                                             <div class="content-hover-inner">
                                                                 <div class="icon">
@@ -88,7 +88,7 @@ class Business extends React.Component{
                                                                 </div>
                                                                 <h3 class="title">Nightlife</h3><!--./ title -->
                                                             </div>
-                                                        </div><!--./ cat-content-hover -->
+                                                        </div>
                                                     </a>
                                                     <a href="#" class="cat-item cat-hotel">
                                                         <figure class="cat-thumb">  

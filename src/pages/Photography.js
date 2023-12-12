@@ -242,7 +242,6 @@ class Photography extends React.Component{
                     <img src="assets/images/todo/single/slide/img6.jpg" alt="thumb" />
                 </div>
         </div>
-        
         </div>
        
         <div class="todos-block bg-snow ptb-100">
@@ -261,11 +260,10 @@ class Photography extends React.Component{
                                             <span>4.8</span>19 Ratings
                                         </div>
                                     </div>
-                                    
-                                </div>
+                                    </div>
                             </div>
                             <div class="todo-content">
-                                <h3 class="title"><a href="Photography.html">Wedding Photography</a></h3>
+                            <h3 class="title"><a href="Photography.html">Wedding Photography</a></h3>
                                <div class="todo-price-status">
                                     <div class="todo-price">$12 - $33</div>
                                 </div> 
