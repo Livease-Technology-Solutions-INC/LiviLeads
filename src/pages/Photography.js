@@ -19,7 +19,7 @@ class Photography extends React.Component{
                                 </div>
                                 <div class="header-search-form">
                                     <form action="#">
-                                        <input type="search" placeholder="What are you looking for?">
+                                        <input type="search" placeholder="What are you looking for?" />
                                         <button type="submit"><span class="icon-search32"></span></button>
                                     </form>
                                 </div>
@@ -30,7 +30,7 @@ class Photography extends React.Component{
                                         </div>
                                         <div class="search-form">
                                             <form action="#">
-                                                <input type="search" placeholder="Search">
+                                                <input type="search" placeholder="Search" />
                                                 <button type="submit"><span class="icon-search32"></span></button>
                                             </form>
                                         </div>
@@ -95,12 +95,12 @@ class Photography extends React.Component{
                                                     <div class="form-content-signin">
                                                         <form class="default-form signin-form">
                                                             <div class="form-group">
-                                                                <input id="email" name="email" class="form-controllar" type="email" placeholder="Email Address">
+                                                                <input id="email" name="email" class="form-controllar" type="email" placeholder="Email Address" />
                                                                 <span class="icon-user-1"></span>
                                                             </div>
                         
                                                             <div class="form-group">
-                                                                <input id="pass" name="password" class="form-controllar" type="password" placeholder="Password">
+                                                                <input id="pass" name="password" class="form-controllar" type="password" placeholder="Password" />
                                                                 <span class="icon-key3"></span>
                                                                 <div class="forget-pass">
                                                                     <a class="btn-password" href="#">Forget?</a>
@@ -178,12 +178,12 @@ class Photography extends React.Component{
                                                         </div>
                                                         
                                                         <div class="form-group">
-                                                            <input id="pass-up-confirm" name="password" class="form-controllar" type="password" placeholder="Confirm Password">
+                                                            <input id="pass-up-confirm" name="password" class="form-controllar" type="password" placeholder="Confirm Password" />
                                                             <span class="icon-key3"></span>
                                                         </div>
                                                         
                                                         <div class="login-form-remember"> 
-                                                            <label><input id="remembermesignup" value="" type="checkbox"><span>I Agree to the </span> <a href="#"> Privacy Policy</a></label>
+                                                            <label><input id="remembermesignup" value="" type="checkbox" /><span>I Agree to the </span> <a href="#"> Privacy Policy</a></label>
                                                         </div>
                                                         <div class="form-btn-group">
                                                             <button type="submit" class="btn btn-default btn-register">
@@ -224,22 +224,22 @@ class Photography extends React.Component{
             <div class="listing-todo-thumbnail-carousel carousel-nav-rectangle owl-carousel">
                
                 <div class="item">
-                    <img src="assets/images/todo/single/slide/img1.jpg" alt="thumb">
+                    <img src="assets/images/todo/single/slide/img1.jpg" alt="thumb" />
                 </div>
                 <div class="item">
-                    <img src="assets/images/todo/single/slide/img2.jpg"  alt="thumb">
+                    <img src="assets/images/todo/single/slide/img2.jpg"  alt="thumb" />
                 </div>
                 <div class="item">
-                    <img src="assets/images/todo/single/slide/img3.jpg" alt="thumb">
+                    <img src="assets/images/todo/single/slide/img3.jpg" alt="thumb" />
                 </div>
                 <div class="item">
-                    <img src="assets/images/todo/single/slide/img 4.jpg" alt="thumb">
+                    <img src="assets/images/todo/single/slide/img 4.jpg" alt="thumb" />
                 </div>
                 <div class="item">
-                    <img src="assets/images/todo/single/slide/img5.jpg"  alt="thumb">
+                    <img src="assets/images/todo/single/slide/img5.jpg"  alt="thumb" />
                 </div>
                 <div class="item">
-                    <img src="assets/images/todo/single/slide/img6.jpg" alt="thumb">
+                    <img src="assets/images/todo/single/slide/img6.jpg" alt="thumb" />
                 </div>
               
         </div>
@@ -254,7 +254,7 @@ class Photography extends React.Component{
                         <div class="todo-item">
                             <div class="todo-thumbnail-area">
                                 <figure class="item-thumb">  
-                                    <img src="assets/images/todo/single/photo/wedd.jpg" alt="Thmubnail"> 
+                                    <img src="assets/images/todo/single/photo/wedd.jpg" alt="Thmubnail" /> 
                                 </figure>
                                 <div class="todo-overlay-info">
                                     <div class="todo-type-cat">
@@ -272,7 +272,7 @@ class Photography extends React.Component{
                                 </div> 
 
                                 <label class="container"><a href="#">Zoom Photography</a> 
-                                    <input type="checkbox" checked="checked">
+                                    <input type="checkbox" checked="checked" />
                                     <span class="checkmark"></span>
                                   </label>
                                
@@ -295,7 +295,7 @@ class Photography extends React.Component{
                         <div class="todo-item">
                             <div class="todo-thumbnail-area">
                                 <figure class="item-thumb">  
-                                    <img src="assets/images/todo/single/photo/travel.jpg" alt="Thmubnail"> 
+                                    <img src="assets/images/todo/single/photo/travel.jpg" alt="Thmubnail" /> 
                                 </figure>
                                 <div class="todo-overlay-info">
                                     <div class="todo-type-cat">
@@ -312,7 +312,7 @@ class Photography extends React.Component{
                                     <div class="todo-price">$12 - $33</div>
                                 </div> 
                                 <label class="container"><a href="#">Zoom Photography</a> 
-                                    <input type="checkbox" checked="checked">
+                                    <input type="checkbox" checked="checked" />
                                     <span class="checkmark"></span>
                                   </label>
                                 <div class="todo-meta">
@@ -334,7 +334,7 @@ class Photography extends React.Component{
     <div class="todo-item">
         <div class="todo-thumbnail-area">
             <figure class="item-thumb">  
-                <img src="assets/images/todo/single/photo/event.jpg" alt="Thmubnail"> 
+                <img src="assets/images/todo/single/photo/event.jpg" alt="Thmubnail" /> 
             </figure>
             <div class="todo-overlay-info">
                 <div class="todo-type-cat">
@@ -350,7 +350,7 @@ class Photography extends React.Component{
                 <div class="todo-price">$12 - $33</div>
             </div> 
             <label class="container"><a href="#">Zoom Photography</a> 
-                <input type="checkbox" checked="checked">
+                <input type="checkbox" checked="checked" />
                 <span class="checkmark"></span>
               </label>
             <div class="todo-meta">
@@ -370,7 +370,7 @@ class Photography extends React.Component{
                         <div class="todo-item">
                             <div class="todo-thumbnail-area">
                                 <figure class="item-thumb">  
-                                    <img src="assets/images/todo/single/photo/travel.jpg" alt="Thmubnail"> 
+                                    <img src="assets/images/todo/single/photo/travel.jpg" alt="Thmubnail" /> 
                                 </figure>
                                 <div class="todo-overlay-info">
                                     <div class="todo-type-cat">
@@ -387,7 +387,7 @@ class Photography extends React.Component{
                                     <div class="todo-price">$12 - $33</div>
                                 </div> 
                                 <label class="container"><a href="#">Zoom Photography</a> 
-                                    <input type="checkbox" checked="checked">
+                                    <input type="checkbox" checked="checked" />
                                     <span class="checkmark"></span>
                                   </label>
                                 <div class="todo-meta">
@@ -408,7 +408,7 @@ class Photography extends React.Component{
                         <div class="todo-item">
                             <div class="todo-thumbnail-area">
                                 <figure class="item-thumb">  
-                                    <img src="assets/images/todo/single/photo/ar.jpg" alt="Thmubnail"> 
+                                    <img src="assets/images/todo/single/photo/ar.jpg" alt="Thmubnail" /> 
                                 </figure>                               
                                  <div class="todo-overlay-info">
                                     <div class="todo-type-cat">
@@ -425,7 +425,7 @@ class Photography extends React.Component{
                                     <div class="todo-price">$12 - $33</div>
                                 </div> 
                                 <label class="container"><a href="#">Zoom Photography</a> 
-                                    <input type="checkbox" checked="checked">
+                                    <input type="checkbox" checked="checked" />
                                     <span class="checkmark"></span>
                                   </label>
                                 <div class="todo-meta">
