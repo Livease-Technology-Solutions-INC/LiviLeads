@@ -241,7 +241,6 @@ class Photography extends React.Component{
                 <div class="item">
                     <img src="assets/images/todo/single/slide/img6.jpg" alt="thumb" />
                 </div>
-              
         </div>
         
         </div>
@@ -313,7 +312,6 @@ class Photography extends React.Component{
                                         <div class="todo-summary">
                                             <p>The path of the righteous man is beset on allave side by the iniquities. Nam in mauris quis liberos sod eleifend spectra online.</p>
                                         </div>
-                                    
                                 </div>
                             </div>
                         </div>
@@ -422,7 +420,6 @@ class Photography extends React.Component{
                         </div>
                     </div>
 
-                   
                       <div class="col-lg-4 col-md-6">
                         <div class="todo-item">
                             <div class="todo-thumbnail-area">
@@ -463,10 +460,7 @@ class Photography extends React.Component{
                             <div class="form-submit">
                                 <button class="btn bttn-default">Send Message</button>
                             </div>
-                        
                     </div>
-               
-
                 </div>
             </div>
         </div>
@@ -546,7 +540,6 @@ class Photography extends React.Component{
                 </div>
             </div>
             </div>
-
         
         <footer class="site-footer bg-blue-violet footer-default-style pd-t-60 pd-b-60">
             <div class="container">

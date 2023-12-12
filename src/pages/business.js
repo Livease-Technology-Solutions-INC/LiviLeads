@@ -4,30 +4,27 @@ class Business extends React.Component{
     render(){
         return(
 
-
 <div class="site-content">
         
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    Start Site Header
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
 <header class="site-header default-header-style">
     <div class="container-fluid">
         <div class="row align-items-center">
             <div class="col-12">
                 <div class="navigation-area">
                     <div class="header-navigation-left">
-                        <!-- Site Branding -->
+                      
                         <div class="site-branding">
                             <a href="index.html">
                                 <img src="assets/images/logo/Logo 02.png" style="height: 40px; width: 140px;" alt="Site Logo" />
                             </a>
-                        </div><!-- /.site-branding -->
+                        </div>
                         <div class="header-search-form">
                             <form action="#">
                                 <input type="search" placeholder="What are you looking for?">
                                 <button type="submit"><span class="icon-search32"></span></button>
                             </form>
-                        </div><!-- /.header-search-form -->
+                        </div>
                         <div class="mobile-element-meta">
                             <div class="search-wrap">
                                 <div class="search-btn">
@@ -39,13 +36,12 @@ class Business extends React.Component{
                                         <button type="submit"><span class="icon-search32"></span></button>
                                     </form>
                                 </div>
-                            </div><!--~./ search-wrap ~-->
+                            </div>
                             <div class="mobile-user-registration"></div>
                         </div>
-                    </div><!-- /.header-navigation-left -->
-
+                    </div>
                     <div class="header-navigation-right-area">  
-                        <!-- Site Navigation -->
+                 
                         <div class="site-navigation">
                             <div class="hamburger-menus">
                                 <span></span>
