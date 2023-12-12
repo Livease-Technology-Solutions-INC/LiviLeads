@@ -281,16 +281,10 @@ class Photography extends React.Component{
                                         <div class="todo-summary">
                                             <p>The path of the righteous man is beset on allave side by the iniquities. Nam in mauris quis liberos sod eleifend spectra online.</p>
                                         </div>
-                                   
-                                    
                                 </div>
-                               
-                               
                             </div>
                         </div>
                     </div>
-
-                   
                     <div class="col-lg-4 col-md-6">
                         <div class="todo-item">
                             <div class="todo-thumbnail-area">
@@ -321,10 +315,7 @@ class Photography extends React.Component{
                                             <p>The path of the righteous man is beset on allave side by the iniquities. Nam in mauris quis liberos sod eleifend spectra online.</p>
                                         </div>
                                     
-                                    
                                 </div>
-                               
-                               
                             </div>
                         </div>
                     </div>
@@ -358,8 +349,6 @@ class Photography extends React.Component{
                     <div class="todo-summary">
                         <p>The path of the righteous man is beset on allave side by the iniquities. Nam in mauris quis liberos sod eleifend spectra online.</p>
                     </div>
-            
-                
             </div>
         </div>
     </div>
@@ -382,7 +371,7 @@ class Photography extends React.Component{
                                 </div>
                             </div>
                             <div class="todo-content">
-                                <h3 class="title"><a href="Photography.html"> Travel Photography</a></h3>
+                                <h3 class="title"><a href="Photography.html">Travel Photography</a></h3>
                                <div class="todo-price-status">
                                     <div class="todo-price">$12 - $33</div>
                                 </div> 
@@ -395,11 +384,7 @@ class Photography extends React.Component{
                                         <div class="todo-summary">
                                             <p>The path of the righteous man is beset on allave side by the iniquities. Nam in mauris quis liberos sod eleifend spectra online.</p>
                                         </div>
-                               
-                                    
-                                </div>
-                               
-                               
+                                </div>            
                             </div>
                         </div>
                     </div>
@@ -433,10 +418,7 @@ class Photography extends React.Component{
                                         <div class="todo-summary">
                                             <p>The path of the righteous man is beset on allave side by the iniquities. Nam in mauris quis liberos sod eleifend spectra online.</p>
                                         </div>
-                         
-                                    
                                 </div>
-                               
                                
                             </div>
                         </div>
@@ -447,7 +429,7 @@ class Photography extends React.Component{
                         <div class="todo-item">
                             <div class="todo-thumbnail-area">
                                 <figure class="item-thumb">  
-                                    <img src="assets/images/todo/single/photo/wedd.jpg" alt="Thmubnail"> 
+                                    <img src="assets/images/todo/single/photo/wedd.jpg" alt="Thmubnail" /> 
                                 </figure>
                                 <div class="todo-overlay-info">
                                     <div class="todo-type-cat">
@@ -464,7 +446,7 @@ class Photography extends React.Component{
                                     <div class="todo-price">$12 - $33</div>
                                 </div> 
                                 <label class="container"><a href="#">Zoom Photography</a> 
-                                    <input type="checkbox" checked="checked">
+                                    <input type="checkbox" checked="checked" />
                                     <span class="checkmark"></span>
                                   </label>
                                 <div class="todo-meta">
@@ -472,10 +454,7 @@ class Photography extends React.Component{
                                         <div class="todo-summary">
                                             <p>The path of the righteous man is beset on allave side by the iniquities. Nam in mauris quis liberos sod eleifend spectra online.</p>
                                         </div>
-                           
-                                    
                                 </div>
-                               
                                
                             </div>
                         </div>
@@ -486,15 +465,15 @@ class Photography extends React.Component{
                             <div class="form-submit">
                                 <button class="btn bttn-default">Send Message</button>
                             </div>
-                        </form>
+                        
                     </div>
-                </aside>
+               
 
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
+
+        
         <div class="features-cat-list-area bg-blue-violet">
             <div class="container">
                 <div class="row">
@@ -515,7 +494,7 @@ class Photography extends React.Component{
                             </ul>
                         </div>
                     </div>
-                    
+                 
                     <div class="col-lg-3 col-md-6">
                         <div class="cat-list-item">
                             <div class="cat-title">
@@ -532,6 +511,7 @@ class Photography extends React.Component{
                             </ul>
                         </div>
                     </div>
+                  
                     <div class="col-lg-3 col-md-6">
                         <div class="cat-list-item">
                             <div class="cat-title">
@@ -548,6 +528,7 @@ class Photography extends React.Component{
                             </ul>
                         </div>
                     </div>
+                  
                     <div class="col-lg-3 col-md-6">
                         <div class="cat-list-item">
                             <div class="cat-title">
@@ -567,15 +548,14 @@ class Photography extends React.Component{
                 </div>
             </div>
             </div>
-            
 
-  
+        
         <footer class="site-footer bg-blue-violet footer-default-style pd-t-60 pd-b-60">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-3">
                         <div class="footer-logo">
-                            <a href="index.html"><img src="assets/images/logo/footer-logo.png" alt="Logo"></a>
+                            <a href="index.html"><img src="assets/images/logo/footer-logo.png" alt="Logo" /></a>
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -597,9 +577,8 @@ class Photography extends React.Component{
                 </div>
             </div>
         </footer>
-  </div>
-  
-
+    </div>
+</div>
     );
         
     }
