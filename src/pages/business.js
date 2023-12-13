@@ -16,12 +16,14 @@ class Business extends React.Component{
                       
                         <div class="site-branding">
                             <a href="index.html">
-                                <img src="assets/images/logo/Logo 02.png" style="height: 40px; width: 140px;" alt="Site Logo" />
+                            <img src="assets/images/logo/Logo 02.png" style={{ height: '40px', width: '140px' }} alt="Site Logo" />
+
+
                             </a>
                         </div>
                         <div class="header-search-form">
                             <form action="#">
-                                <input type="search" placeholder="What are you looking for?">
+                                <input type="search" placeholder="What are you looking for?" />
                                 <button type="submit"><span class="icon-search32"></span></button>
                             </form>
                         </div>
@@ -32,7 +34,7 @@ class Business extends React.Component{
                                 </div>
                                 <div class="search-form">
                                     <form action="#">
-                                        <input type="search" placeholder="Search">
+                                        <input type="search" placeholder="Search" />
                                         <button type="submit"><span class="icon-search32"></span></button>
                                     </form>
                                 </div>
@@ -72,13 +74,13 @@ class Business extends React.Component{
                                                 <div class="sub-menu megamenu-main megamenu-carousel carousel-nav-text owl-carousel">
                                                     <a href="#" class="cat-item cat-nightlife">
                                                         <figure class="cat-thumb">  
-                                                            <img src="assets/images/categories/component/1.jpg" alt="Thmubnail"> 
-                                                        </figure><!--./ cat-thumb -->
+                                                            <img src="assets/images/categories/component/1.jpg" alt="Thmubnail" /> 
+                                                        </figure>
                                                         
                                                         <div class="cat-content">
                                                             <div class="cat-content-inner">
                                                                 <p class="listing-no">20</p>
-                                                                <h3 class="title">Nightlife</h3><!--./ title -->
+                                                                <h3 class="title">Nightlife</h3>
                                                             </div>
                                                         </div>
                                                         <div class="cat-content-hover">
@@ -86,151 +88,151 @@ class Business extends React.Component{
                                                                 <div class="icon">
                                                                     <span class="icon-cafe"></span>
                                                                 </div>
-                                                                <h3 class="title">Nightlife</h3><!--./ title -->
+                                                                <h3 class="title">Nightlife</h3>
                                                             </div>
                                                         </div>
                                                     </a>
                                                     <a href="#" class="cat-item cat-hotel">
                                                         <figure class="cat-thumb">  
-                                                            <img src="assets/images/categories/component/2.jpg" alt="Thmubnail"> 
-                                                        </figure><!--./ cat-thumb -->
+                                                            <img src="assets/images/categories/component/2.jpg" alt="Thmubnail" /> 
+                                                        </figure>
                                                         
                                                         <div class="cat-content">
                                                             <div class="cat-content-inner">
                                                                 <p class="listing-no">10</p>
-                                                                <h3 class="title">Hotels</h3><!--./ title -->
-                                                            </div><!--./ cat-content-inner -->
-                                                        </div><!--./ cat-content -->
+                                                                <h3 class="title">Hotels</h3>
+                                                            </div>
+                                                        </div>
                                                         <div class="cat-content-hover">
                                                             <div class="content-hover-inner">
                                                                 <div class="icon">
                                                                     <span class="icon-building"></span>
                                                                 </div>
-                                                                <h3 class="title">Hotels</h3><!--./ title -->
+                                                                <h3 class="title">Hotels</h3>
                                                             </div>
-                                                        </div><!--./ cat-content-hover -->
+                                                        </div>
                                                     </a>
                                                     <a href="#" class="cat-item cat-sopping">
                                                         <figure class="cat-thumb">  
-                                                            <img src="assets/images/categories/component/3.jpg" alt="Thmubnail"> 
-                                                        </figure><!--./ cat-thumb -->
+                                                            <img src="assets/images/categories/component/3.jpg" alt="Thmubnail" /> 
+                                                        </figure>
                                                         
                                                         <div class="cat-content">
                                                             <div class="cat-content-inner">
                                                                 <p class="listing-no">35</p>
-                                                                <h3 class="title">Shopping</h3><!--./ title -->
-                                                            </div><!--./ cat-content-inner -->
-                                                        </div><!--./ cat-content -->
+                                                                <h3 class="title">Shopping</h3>
+                                                            </div>
+                                                        </div>
                                                         <div class="cat-content-hover">
                                                             <div class="content-hover-inner">
                                                                 <div class="icon">
                                                                     <span class="icon-shopping-cart"></span>
                                                                 </div>
-                                                                <h3 class="title">Shopping</h3><!--./ title -->
+                                                                <h3 class="title">Shopping</h3>
                                                             </div>
-                                                        </div><!--./ cat-content-hover -->
+                                                        </div>
                                                     </a>
                                                     <a href="#" class="cat-item cat-places">
                                                         <figure class="cat-thumb">  
-                                                            <img src="assets/images/categories/component/4.jpg" alt="Thmubnail"> 
-                                                        </figure><!--./ cat-thumb -->
+                                                            <img src="assets/images/categories/component/4.jpg" alt="Thmubnail" /> 
+                                                        </figure>
                                                         
                                                         <div class="cat-content">
                                                             <div class="cat-content-inner">
                                                                 <p class="listing-no">80</p>
-                                                                <h3 class="title">Places</h3><!--./ title -->
-                                                            </div><!--./ cat-content-inner -->
-                                                        </div><!--./ cat-content -->
+                                                                <h3 class="title">Places</h3>
+                                                            </div>
+                                                        </div>
                                                         <div class="cat-content-hover">
                                                             <div class="content-hover-inner">
                                                                 <div class="icon">
                                                                     <span class="icon-vynil"></span>
                                                                 </div>
-                                                                <h3 class="title">Places</h3><!--./ title -->
+                                                                <h3 class="title">Places</h3>
                                                             </div>
-                                                        </div><!--./ cat-content-hover -->
+                                                        </div>
                                                     </a>
                                                     <a href="#" class="cat-item cat-nightlife">
                                                         <figure class="cat-thumb">  
-                                                            <img src="assets/images/categories/component/1.jpg" alt="Thmubnail"> 
-                                                        </figure><!--./ cat-thumb -->
+                                                            <img src="assets/images/categories/component/1.jpg" alt="Thmubnail" /> 
+                                                        </figure>
                                                         
                                                         <div class="cat-content">
                                                             <div class="cat-content-inner">
                                                                 <p class="listing-no">20</p>
-                                                                <h3 class="title">Nightlife</h3><!--./ title -->
-                                                            </div><!--./ cat-content-inner -->
-                                                        </div><!--./ cat-content -->
+                                                                <h3 class="title">Nightlife</h3>
+                                                            </div>
+                                                        </div>
                                                         <div class="cat-content-hover">
                                                             <div class="content-hover-inner">
                                                                 <div class="icon">
                                                                     <span class="icon-cafe"></span>
                                                                 </div>
-                                                                <h3 class="title">Nightlife</h3><!--./ title -->
+                                                                <h3 class="title">Nightlife</h3>
                                                             </div>
-                                                        </div><!--./ cat-content-hover -->
+                                                        </div>
                                                     </a>
                                                     <a href="#" class="cat-item cat-hotel">
                                                         <figure class="cat-thumb">  
-                                                            <img src="assets/images/categories/component/2.jpg" alt="Thmubnail"> 
-                                                        </figure><!--./ cat-thumb -->
+                                                            <img src="assets/images/categories/component/2.jpg" alt="Thmubnail" /> 
+                                                        </figure>
                                                         
                                                         <div class="cat-content">
                                                             <div class="cat-content-inner">
                                                                 <p class="listing-no">10</p>
-                                                                <h3 class="title">Hotels</h3><!--./ title -->
-                                                            </div><!--./ cat-content-inner -->
-                                                        </div><!--./ cat-content -->
+                                                                <h3 class="title">Hotels</h3>
+                                                            </div>
+                                                        </div>
                                                         <div class="cat-content-hover">
                                                             <div class="content-hover-inner">
                                                                 <div class="icon">
                                                                     <span class="icon-building"></span>
                                                                 </div>
-                                                                <h3 class="title">Hotels</h3><!--./ title -->
+                                                                <h3 class="title">Hotels</h3>
                                                             </div>
-                                                        </div><!--./ cat-content-hover -->
+                                                        </div>
                                                     </a>
                                                     <a href="#" class="cat-item cat-sopping">
                                                         <figure class="cat-thumb">  
-                                                            <img src="assets/images/categories/component/3.jpg" alt="Thmubnail"> 
-                                                        </figure><!--./ cat-thumb -->
+                                                            <img src="assets/images/categories/component/3.jpg" alt="Thmubnail" /> 
+                                                        </figure>
                                                         
                                                         <div class="cat-content">
                                                             <div class="cat-content-inner">
                                                                 <p class="listing-no">35</p>
-                                                                <h3 class="title">Shopping</h3><!--./ title -->
-                                                            </div><!--./ cat-content-inner -->
-                                                        </div><!--./ cat-content -->
+                                                                <h3 class="title">Shopping</h3>
+                                                            </div>
+                                                        </div>
                                                         <div class="cat-content-hover">
                                                             <div class="content-hover-inner">
                                                                 <div class="icon">
                                                                     <span class="icon-shopping-cart"></span>
                                                                 </div>
-                                                                <h3 class="title">Shopping</h3><!--./ title -->
+                                                                <h3 class="title">Shopping</h3>
                                                             </div>
-                                                        </div><!--./ cat-content-hover -->
+                                                        </div>
                                                     </a>
                                                     <a href="#" class="cat-item cat-places">
                                                         <figure class="cat-thumb">  
-                                                            <img src="assets/images/categories/component/4.jpg" alt="Thmubnail"> 
-                                                        </figure><!--./ cat-thumb -->
+                                                            <img src="assets/images/categories/component/4.jpg" alt="Thmubnail" /> 
+                                                        </figure>
                                                         
                                                         <div class="cat-content">
                                                             <div class="cat-content-inner">
                                                                 <p class="listing-no">80</p>
-                                                                <h3 class="title">Places</h3><!--./ title -->
-                                                            </div><!--./ cat-content-inner -->
-                                                        </div><!--./ cat-content -->
+                                                                <h3 class="title">Places</h3>
+                                                            </div>
+                                                        </div>
                                                         <div class="cat-content-hover">
                                                             <div class="content-hover-inner">
                                                                 <div class="icon">
                                                                     <span class="icon-vynil"></span>
                                                                 </div>
-                                                                <h3 class="title">Places</h3><!--./ title -->
+                                                                <h3 class="title">Places</h3>
                                                             </div>
-                                                        </div><!--./ cat-content-hover -->
+                                                        </div>
                                                     </a>
-                                                </div><!--/.mega-menu-content-->
+                                                </div>
                                             </li>
                                             <li>
                                                 <a class="active" href="#">Listing</a>
@@ -246,11 +248,11 @@ class Business extends React.Component{
                                                 </ul>
                                             </li>                                    
                                            
-                                        </ul> <!-- /.menu-list -->
-                                    </div> <!-- /.hours-content-->
-                                </div><!-- /.menu-wrapper --> 
+                                        </ul>
+                                    </div>
+                                </div>
                             </nav>
-                        </div><!-- /.site-navigation -->
+                        </div>
 
                         <div class="header-navigation-right">
                             <div class="user-registration-area">
@@ -259,23 +261,23 @@ class Business extends React.Component{
                                     <span class="text">Sign In</span>
                                 </a>
                                 <div class="user-register-area">
-                                    <!--~~~ Start User Signin Area ~~~--> 
+                                   
                                     <div class="user-signin-area">
                                         <div class="form-content">
                                             <div class="form-content-signin">
                                                 <form class="default-form signin-form">
                                                     <div class="form-group">
-                                                        <input id="email" name="email" class="form-controllar" type="email" placeholder="Email Address">
+                                                        <input id="email" name="email" class="form-controllar" type="email" placeholder="Email Address" />
                                                         <span class="icon-user-1"></span>
-                                                    </div><!--/.form-group-->
+                                                    </div>
                 
                                                     <div class="form-group">
-                                                        <input id="pass" name="password" class="form-controllar" type="password" placeholder="Password">
+                                                        <input id="pass" name="password" class="form-controllar" type="password" placeholder="Password" />
                                                         <span class="icon-key3"></span>
                                                         <div class="forget-pass">
                                                             <a class="btn-password" href="#">Forget?</a>
                                                         </div>
-                                                    </div><!--/.form-group-->
+                                                    </div>
                 
                                                     <div class="form-btn-group">
                                                         <button type="submit" class="btn btn-default btn-black">
@@ -301,23 +303,23 @@ class Business extends React.Component{
                                                     Dont have an account? <a class="btn-register-now" href="#">Register Now</a>
                                                 </div>
                                             </div>
-                                            <!--~~~ Start Account Recovery Area ~~~--> 
+                                         
                                             <div class="form-content-password">
                                                 <form class="default-form password-form">
                                                     <div class="form-group">
-                                                        <input id="re-email" name="email" class="form-controllar" type="email" placeholder="Email Address">
+                                                        <input id="re-email" name="email" class="form-controllar" type="email" placeholder="Email Address" />
                                                         <span class="icon-user-1"></span>
-                                                    </div><!--/.form-group-->
+                                                    </div>
                                                     
                                                     <div class="form-group">
-                                                        <input id="re-pass-up" name="password" class="form-controllar" type="password" placeholder="Password">
+                                                        <input id="re-pass-up" name="password" class="form-controllar" type="password" placeholder="Password" />
                                                         <span class="icon-key3"></span>
-                                                    </div><!--/.form-group-->
+                                                    </div>
                 
                                                     <div class="form-group">
-                                                        <input id="re-pass-up-confirm" name="password" class="form-controllar" type="password" placeholder="Confirm Password">
+                                                        <input id="re-pass-up-confirm" name="password" class="form-controllar" type="password" placeholder="Confirm Password" />
                                                         <span class="icon-key3"></span>
-                                                    </div><!--/.form-group-->
+                                                    </div>
                 
                                                     <div class="form-btn-group pt-10">
                                                         <button type="submit" class="btn btn-default btn-recet">
@@ -326,34 +328,34 @@ class Business extends React.Component{
                                                         <button type="button" class="btn btn-default btn-back">Back</button>
                                                     </div>
                                                 </form> 
-                                            </div><!--~./ end account recovery area ~-->
+                                            </div>
                                         </div>
-                                    </div><!--~./ end user signin area ~--> 
+                                    </div>
 
-                                     <!--~~~ Start User Signup Area ~~~--> 
+                                 
                                      <div class="user-signup-area">
                                         <div class="form-content">
                                             <form id="signup-form" class="default-form signup-form" method="post">
                                                 <div class="form-group">
-                                                    <input id="name" name="name" class="form-controllar" type="text" placeholder="Username">
+                                                    <input id="name" name="name" class="form-controllar" type="text" placeholder="Username" />
                                                     <span class="icon-user-1"></span>
-                                                </div><!--/.form-group-->
+                                                </div>
                                                 <div class="form-group">
-                                                    <input id="email-up" name="email" class="form-controllar" type="email" placeholder="Email Address">
+                                                    <input id="email-up" name="email" class="form-controllar" type="email" placeholder="Email Address" />
                                                     <span class="icon-user-1"></span>
-                                                </div><!--/.form-group-->
+                                                </div>
                                                 <div class="form-group">
-                                                    <input id="pass-up" name="password" class="form-controllar" type="password" placeholder="Password">
+                                                    <input id="pass-up" name="password" class="form-controllar" type="password" placeholder="Password" />
                                                     <span class="icon-key3"></span>
-                                                </div><!--/.form-group-->
+                                                </div>
                                                 
                                                 <div class="form-group">
-                                                    <input id="pass-up-confirm" name="password" class="form-controllar" type="password" placeholder="Confirm Password">
+                                                    <input id="pass-up-confirm" name="password" class="form-controllar" type="password" placeholder="Confirm Password"/>
                                                     <span class="icon-key3"></span>
-                                                </div><!--/.form-group-->
+                                                </div>
                                                 
                                                 <div class="login-form-remember"> 
-                                                    <label><input id="remembermesignup" value="" type="checkbox"><span>I Agree to the </span> <a href="#"> Privacy Policy</a></label>
+                                                    <label><input id="remembermesignup" value="" type="checkbox" /><span>I Agree to the </span> <a href="#"> Privacy Policy</a></label>
                                                 </div>
                                                 <div class="form-btn-group">
                                                     <button type="submit" class="btn btn-default btn-register">
@@ -378,31 +380,29 @@ class Business extends React.Component{
                                                 </div>
                                             </form> 
                                         </div>
-                                    </div><!--~./ end user signup area ~--> 
+                                    </div>
                                 </div>
-                            </div><!--~./ user-registration-area ~-->
+                            </div>
                            
-                        </div><!--~./ header-navigation-right ~-->
-                    </div><!-- /.header-navigation-right-area -->
-                </div><!-- /.navigation-area -->
-            </div><!-- /.col-12 -->
-        </div><!-- /.row -->
-    </div><!-- /.container-fluid -->
-</header><!--~~./ end site header ~~-->
-<!--~~~ Sticky Header ~~~-->
-<div id="sticky-header"></div><!--~./ end sticky header ~-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div id="sticky-header"></div>
 
 
 
 
 
 
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    Start Single Listing Todo Block
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
 <div class="single-listing-todo-block style-three pd-b-100">
     <div class="listing-todo-thumbnail-area bg-image"style="background-image:url('assets/images/todo/business\ \(1\).jpg')"> 
-    </div><!--~./ listing todo thumbnail Area ~-->
+    </div>
     <div class="single-listing-todo-main-area">
         <div class="container">
             <div class="row">
@@ -413,50 +413,49 @@ class Business extends React.Component{
                 </div>
             </div>
         </div>
-    </div><!--./ listing-todo-header-content -->
-</div><!--~./ listing todo thumbnail Area ~-->
+    </div>
+</div>
 <div class="todo-details-menu">
     <div class="container">
         <div class="row">
             
         </div>
     </div>
-</div><!--~./ todo-details-menu ~-->
+</div>
 <div class="single-listing-todo-main-area pd-t-100">
     <div class="container">
         <div class="row">
             <div class="col-lg-8">
                 <div class="single-listing-todo-main">
                    
-                   
-                    <!--~~~~~ Start Listing Gallery ~~~~~-->
+                
                     <div class="listing-gallery" id="gallery">
                         <div class="small-title">
                             <h3 class="heading">Gallery</h3>
-                        </div><!--~./ small-title ~-->
+                        </div>
                         <div class="box-inner-content">
                             <div class="listing-gallery-slide owl-carousel carousel-nav-dots">
                                 <div class="item">
-                                    <img src="assets/images/todo/single/gallery/B1.jpg" alt="img">
+                                    <img src="assets/images/todo/single/gallery/B1.jpg" alt="img" />
                                 </div>
                                 <div class="item">
-                                    <img src="assets/images/todo/single/gallery/B2.jpg" alt="img">
+                                    <img src="assets/images/todo/single/gallery/B2.jpg" alt="img" />
                                 </div>
                                 <div class="item">
-                                    <img src="assets/images/todo/single/gallery/B1.jpg" alt="img">
+                                    <img src="assets/images/todo/single/gallery/B1.jpg" alt="img" />
                                 </div>							
                             </div>
                         </div>
-                    </div><!--~./ end listing gallery ~-->
+                    </div>
 
                    
                     
                    
-                    <!--~~~~~ Start Listing Rating Average ~~~~~-->
+                   
                     <div class="listing-average-rating">
                         <div class="small-title">
                             <h3 class="heading">Rating Average</h3>
-                        </div><!--~./ small-title ~-->
+                        </div>
                         <div class="box-inner-content">
                             <div class="rating-overview">
                                 <div class="rating-overview-left">
@@ -473,7 +472,7 @@ class Business extends React.Component{
                                             <a href="#">35 Rating</a>
                                         </div>
                                     </div>
-                                </div><!--~./ rating-overview-left ~-->
+                                </div>
                                 <div class="rating-overview-right">
                                     <div class="single-progress-bar">
                                         <div class="progress-type">Quality</div>
@@ -481,47 +480,46 @@ class Business extends React.Component{
                                             <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
                                         <div class="progress-percent">25</div>
-                                    </div><!--~./ single-progress-bar ~-->
+                                    </div>
                                     <div class="single-progress-bar">
                                         <div class="progress-type">Space</div>
                                         <div class="progress">
                                             <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
                                         <div class="progress-percent">13</div>
-                                    </div><!--~./ single-progress-bar ~-->
+                                    </div>
                                     <div class="single-progress-bar">
                                         <div class="progress-type">Price</div>
                                         <div class="progress">
                                             <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
                                         <div class="progress-percent">4</div>
-                                    </div><!--~./ single-progress-bar ~-->
+                                    </div>
                                     <div class="single-progress-bar">
                                         <div class="progress-type">Service</div>
                                         <div class="progress">
                                             <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
                                         <div class="progress-percent">7</div>
-                                    </div><!--~./ single-progress-bar ~-->
+                                    </div>
                                     <div class="single-progress-bar">
                                         <div class="progress-type">Location</div>
                                         <div class="progress">
                                             <div class="progress-bar" role="progressbar" style="width: 35%;" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
                                         <div class="progress-percent">5</div>
-                                    </div><!--~./ single-progress-bar ~-->
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div><!--~./ end listing average rating ~-->
+                    </div>
                     
                         
-                       
-                        <!--~~~~~ Start Listing Leave Review ~~~~~-->
+                      
                         <div class="listing-leave-review">
                             <div class="small-title">
                                 <h3 class="heading">Leave a Review</h3>
-                            </div><!--~./ small-title ~-->
+                            </div>
                             <div class="box-inner-content">
                                 <div class="leave-review-content">
                                     <form name="reviewForm" id='review_form' method="post" action='#'>
@@ -561,29 +559,29 @@ class Business extends React.Component{
                                     </form> 
                                 </div>
                             </div>
-                        </div><!--~./ end listing leave review ~-->
+                        </div>
                     </div>
                 </div>
 
-                <!--~~~~~ Start sidebar ~~~~~-->
+               
                 <div class="col-lg-4">
                     <div class="sidebar-todos mrt-md-60">
-                            <!--~~~~ Start Widget Search Filter ~~~~-->
+                          
                             <aside class="widget widget_search_filter">
                                 <h4 class="widget-title" bg-blue-violet>Condact Vendor</h4>
                                 <div class="widget-content">
                                     <form name="searchfilterForm" id='search_filter_form' method="post" action='#' class="search_filter_form">
                                         <div class="filter-group">
                                             <span class="icon-user-1"></span>
-                                            <input id="res_name" placeholder="Full Name" type="text" class="form-controllar">
+                                            <input id="res_name" placeholder="Full Name" type="text" class="form-controllar" />
                                         </div>
                                         <div class="filter-group">
                                             <span class="icon-email"></span>
-                                            <input id="res_email" placeholder="Email" type="email" class="form-controllar">
+                                            <input id="res_email" placeholder="Email" type="email" class="form-controllar" />
                                         </div>
                                         <div class="filter-group">
                                             <span class="icon-call"></span>
-                                            <input id="res_email" placeholder="Email" type="email" class="form-controllar">
+                                            <input id="res_email" placeholder="Email" type="email" class="form-controllar" />
                                         </div>
                                        
                                         <div class="filter-group">
@@ -596,12 +594,12 @@ class Business extends React.Component{
                                                 <option>India</option>
                                                 <option>New York</option>
                                                 <option>Bangladesh</option>
-                                            </select><!--~./ location ~-->
+                                            </select>
                                         </div>
                                        
                                         <div class="filter-group filter_location">
                                             <span class="icon-compass"></span>
-                                            <input id="filter_location" placeholder="Location" type="text" class="form-controllar">
+                                            <input id="filter_location" placeholder="Location" type="text" class="form-controllar" />
                                         </div>
                                         <div class="filter-group">
                                             <div class="search-distance-value">
@@ -621,24 +619,24 @@ class Business extends React.Component{
                                             <strong>FEATURES</strong>
                                             <div class="tags-form-group">
                                                 <div class="form-group">
-                                                    <input name="tag" id="filtertag0" type="checkbox">
+                                                    <input name="tag" id="filtertag0" type="checkbox" />
                                                     <label for="filtertag0" class="listtag">Manufacturing Business </label> 
-                                                </div><!--~./ form-group ~-->
+                                                </div>
                                                 <div class="form-group">
-                                                    <input name="tag" id="filtertag1" type="checkbox">
+                                                    <input name="tag" id="filtertag1" type="checkbox" />
                                                     <label for="listtag1" class="filtertag1"> Service-Based Business</label> 
-                                                </div><!--~./ form-group ~-->
+                                                </div>
                                                 
                                                 <div class="form-group">
-                                                    <input name="tag" id="filtertag5" type="checkbox">
+                                                    <input name="tag" id="filtertag5" type="checkbox" />
                                                     <label for="filtertag5" class="listtag">Retail Business</label> 
-                                                </div><!--~./ form-group ~-->
-                                                <!--<div class="form-group">
-                                                    <input name="tag" id="filtertag6" type="checkbox">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input name="tag" id="filtertag6" type="checkbox" />
                                                     <label for="filtertag6" class="listtag">Hot Spots</label> 
-                                                </div>~./ form-group ~-->
-                                            </div><!--~./ tags-form-group ~-->
-                                        </div><br>
+                                                </div>
+                                            </div>
+                                        </div><br/>
                                         <div class="filter-group">
                                             <span class="icon-pencil2"></span>
                                             <textarea class="form-controllar"  placeholder="Your Message"></textarea>
@@ -648,12 +646,10 @@ class Business extends React.Component{
                                         </div>
                                     </form>
                                 </div>
-                            </aside><!--~./ end widget search filter ~-->
+                            </aside>
 
                       
-
                        
-                        <!--~~~ Start Business Info Widget ~~~--> 
                         <aside class="widget bt-business-info-widget">
                             <h4 class="widget-title">Business Information</h4>
                             <div class="widget-content">
@@ -664,56 +660,25 @@ class Business extends React.Component{
                                     <li><a href="#"><span class="icon-broken-link"></span>thebackyard.biz</a></li>
                                 </ul>
                             </div>
-                        </aside><!--~./ end business info widget ~-->
+                        </aside>
                         
                         
 
 
                     </div>
-                </div><!--~./ end sidebar ~-->
+                </div>
             </div>
         </div>
-    </div><!--~./ end single listing todo main area ~-->
-</div><!--~./ end single listing todo block ~-->
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    Start Work brand Block
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--  <div class="work-brand-block bg-main ptb-100">
-    <div class="container ml-t-15 ml-b-15">
-        <div class="row">
-            <div class="col-12">-->
-                <!--~~ Start Brands Carousel ~~-->
-                <!--<div class="brands-carousel owl-carousel">
-                    <div class="brands-link">
-                        <img src="assets/images/brand/1.png" alt="logo">
-                    </div>
-                    <div class="brands-link">
-                        <img src="assets/images/brand/2.png" alt="logo">
-                    </div>
-                    <div class="brands-link">
-                        <img src="assets/images/brand/3.png" alt="logo">
-                    </div>
-                    <div class="brands-link">
-                        <img src="assets/images/brand/4.png" alt="logo">
-                    </div>
-                    <div class="brands-link">
-                        <img src="assets/images/brand/4.png" alt="logo">
-                    </div>
-                </div>--><!--~./ end brands carousel ~-->
-          <!--  </div>
-        </div>
     </div>
-</div>--><!--~./ end popular brands block ~-->
+</div>
 
 
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    Start Features Cat List Area
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+
 <div class="features-cat-list-area bg-blue-violet">
     <div class="container">
         <div class="row">
-            <!--~~~~~ Start Cat List Item ~~~~~-->
+          
             <div class="col-lg-3 col-md-6">
                 <div class="cat-list-item">
                     <div class="cat-title">
@@ -730,8 +695,8 @@ class Business extends React.Component{
                         <li><a href="#">Skin Care<span>5</span></a></li>
                     </ul>
                 </div>
-            </div><!--./ cat-list-item -->
-            <!--~~~~~ Start Cat List Item ~~~~~-->
+            </div>
+          
             <div class="col-lg-3 col-md-6">
                 <div class="cat-list-item">
                     <div class="cat-title">
@@ -748,8 +713,8 @@ class Business extends React.Component{
                         <li><a href="#">Ice Cream<span>5</span></a></li>
                     </ul>
                 </div>
-            </div><!--./ cat-list-item -->
-            <!--~~~~~ Start Cat List Item ~~~~~-->
+            </div>
+          
             <div class="col-lg-3 col-md-6">
                 <div class="cat-list-item">
                     <div class="cat-title">
@@ -766,8 +731,8 @@ class Business extends React.Component{
                         <li><a href="#">Art & Design<span>5</span></a></li>
                     </ul>
                 </div>
-            </div><!--./ cat-list-item -->
-            <!--~~~~~ Start Cat List Item ~~~~~-->
+            </div>
+           
             <div class="col-lg-3 col-md-6">
                 <div class="cat-list-item">
                     <div class="cat-title">
@@ -784,42 +749,40 @@ class Business extends React.Component{
                         <li><a href="#">Jewellery<span>5</span></a></li>
                     </ul>
                 </div>
-            </div><!--./ cat-list-item -->
+            </div>
         </div>
     </div>
-</div><!--~./ end features cat list area ~-->
+</div>
 
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    Start SITE FOOTER
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
 <footer class="site-footer bg-blue-violet footer-default-style pd-t-60 pd-b-60">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-3">
                 <div class="footer-logo">
-                    <a href="index.html"><img src="assets/images/logo/footer-logo.png" alt="Logo"></a>
-                </div><!-- /.footer-logo -->
-            </div><!--~./ col-lg-3 ~-->
+                    <a href="index.html"><img src="assets/images/logo/footer-logo.png" alt="Logo" /></a>
+                </div>
+            </div>
             <div class="col-lg-6">
                 <ul class="footer-menu">                        
                     <li><a href="#">Join Us</a></li>
                     <li><a href="#">Privcay Policy</a></li>
                     <li><a href="#">Support Center</a></li>
                     <li><a href="#">Contact</a></li>
-                </ul><!--  /.footer-menu -->
-            </div><!--~./ col-lg-6 ~-->
+                </ul>
+            </div>
             <div class="col-lg-3">
                 <ul class="footer-social">
                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                     <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                     <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                     <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                </ul><!--  /.footer-social -->
-            </div><!--~./ col-lg-3 ~-->
+                </ul>
+            </div>
         </div>
     </div>
-</footer><!--~./ end site footer ~-->
-</div><!--~~./ end site content ~~-->
+</footer>
+</div>
 );
         
     }
