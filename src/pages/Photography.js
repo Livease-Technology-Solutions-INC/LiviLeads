@@ -1,4 +1,16 @@
 import React from "react";
+import logimg from "../assets/images/logo/lg.png";
+import img1 from "../assets/images/todo/single/slide/img1.jpg";
+import img2 from "../assets/images/todo/single/slide/img2.jpg";
+import img3 from "../assets/images/todo/single/slide/img3.jpg";
+import img4 from "../assets/images/todo/single/slide/img 4.jpg";
+import img5 from "../assets/images/todo/single/slide/img5.jpg";
+import wedding from "../assets/images/todo/single/photo/wedd.jpg";
+import portait from "../assets/images/todo/single/photo/pro.jpg";
+import eventphotography from "../assets/images/todo/single/photo/event.jpg";
+import fineart from "../assets/images/todo/single/photo/fine art.jpg";
+import Architecture from "../assets/images/todo/single/photo/ar.jpg";
+import travel from "../assets/images/todo/single/photo/travel.jpg";
 class Photography extends React.Component {
   render() {
     return (
@@ -12,7 +24,7 @@ class Photography extends React.Component {
                     <div class="site-branding">
                       <a href="index.html">
                         <img
-                          src="assets/images/logo/loogg.png"
+                          src={logimg}
                           style="height: 40px; width: 120px;"
                           alt="Site Logo"
                         />
@@ -359,25 +371,25 @@ class Photography extends React.Component {
         <div class="single-listing-todo-block pd-b-100">
           <div class="listing-todo-thumbnail-carousel carousel-nav-rectangle owl-carousel">
             <div class="item">
-              <img src="assets/images/todo/single/slide/img1.jpg" alt="thumb" />
+              <img src={img1} alt="thumb" />
             </div>
             <div class="item">
-              <img src="assets/images/todo/single/slide/img2.jpg" alt="thumb" />
+              <img src={img2} alt="thumb" />
             </div>
             <div class="item">
-              <img src="assets/images/todo/single/slide/img3.jpg" alt="thumb" />
+              <img src={img3} alt="thumb" />
             </div>
             <div class="item">
               <img
-                src="assets/images/todo/single/slide/img 4.jpg"
+                src={img4}
                 alt="thumb"
               />
             </div>
             <div class="item">
-              <img src="assets/images/todo/single/slide/img5.jpg" alt="thumb" />
+              <img src={img5} alt="thumb" />
             </div>
             <div class="item">
-              <img src="assets/images/todo/single/slide/img6.jpg" alt="thumb" />
+              <img src={img5} alt="thumb" />
             </div>
           </div>
         </div>
@@ -390,7 +402,7 @@ class Photography extends React.Component {
                   <div class="todo-thumbnail-area">
                     <figure class="item-thumb">
                       <img
-                        src="assets/images/todo/single/photo/wedd.jpg"
+                        src={wedding}
                         alt="Thmubnail"
                       />
                     </figure>
@@ -433,7 +445,7 @@ class Photography extends React.Component {
                   <div class="todo-thumbnail-area">
                     <figure class="item-thumb">
                       <img
-                        src="assets/images/todo/single/photo/travel.jpg"
+                        src={portait}
                         alt="Thmubnail"
                       />
                     </figure>
@@ -475,7 +487,7 @@ class Photography extends React.Component {
                   <div class="todo-thumbnail-area">
                     <figure class="item-thumb">
                       <img
-                        src="assets/images/todo/single/photo/event.jpg"
+                        src={eventphotography}
                         alt="Thmubnail"
                       />
                     </figure>
@@ -517,7 +529,7 @@ class Photography extends React.Component {
                   <div class="todo-thumbnail-area">
                     <figure class="item-thumb">
                       <img
-                        src="assets/images/todo/single/photo/travel.jpg"
+                        src={travel}
                         alt="Thmubnail"
                       />
                     </figure>
@@ -559,7 +571,7 @@ class Photography extends React.Component {
                   <div class="todo-thumbnail-area">
                     <figure class="item-thumb">
                       <img
-                        src="assets/images/todo/single/photo/ar.jpg"
+                        src={Architecture}
                         alt="Thmubnail"
                       />
                     </figure>
@@ -601,7 +613,7 @@ class Photography extends React.Component {
                   <div class="todo-thumbnail-area">
                     <figure class="item-thumb">
                       <img
-                        src="assets/images/todo/single/photo/wedd.jpg"
+                        src={fineart}
                         alt="Thmubnail"
                       />
                     </figure>

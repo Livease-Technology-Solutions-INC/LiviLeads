@@ -1,4 +1,8 @@
 import React from "react";
+import logimg from "../assets/images/logo/lg.png";
+import business1 from "../assets/images/todo/single/gallery/B1.jpg";
+import business2 from "../assets/images/todo/single/gallery/B2.jpg";
+import business3 from "../assets/images/todo/single/gallery/B3.jpg";
 class Business extends React.Component{
     
     render(){
@@ -16,7 +20,7 @@ class Business extends React.Component{
                       
                         <div class="site-branding">
                             <a href="index.html"> 
-                            <img src="assets/images/logo/Logo 02.png" alt="Site Logo" />
+                            <img src={logimg} alt="Site Logo" />
                             </a>
                         </div>
                         <div class="header-search-form">
@@ -67,182 +71,17 @@ class Business extends React.Component{
                                                     
                                                 </ul>
                                             </li>        
-                                            <li class="megamenu">
-                                                <a href="#">Explore</a>
-                                                <div class="sub-menu megamenu-main megamenu-carousel carousel-nav-text owl-carousel">
-                                                    <a href="#" class="cat-item cat-nightlife">
-                                                        <figure class="cat-thumb">  
-                                                            <img src="assets/images/categories/component/1.jpg" alt="Thmubnail" /> 
-                                                        </figure>
-                                                        
-                                                        <div class="cat-content">
-                                                            <div class="cat-content-inner">
-                                                                <p class="listing-no">20</p>
-                                                                <h3 class="title">Nightlife</h3>
-                                                            </div>
-                                                        </div>
-                                                        <div class="cat-content-hover">
-                                                            <div class="content-hover-inner">
-                                                                <div class="icon">
-                                                                    <span class="icon-cafe"></span>
-                                                                </div>
-                                                                <h3 class="title">Nightlife</h3>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                    <a href="#" class="cat-item cat-hotel">
-                                                        <figure class="cat-thumb">  
-                                                            <img src="assets/images/categories/component/2.jpg" alt="Thmubnail" /> 
-                                                        </figure>
-                                                        
-                                                        <div class="cat-content">
-                                                            <div class="cat-content-inner">
-                                                                <p class="listing-no">10</p>
-                                                                <h3 class="title">Hotels</h3>
-                                                            </div>
-                                                        </div>
-                                                        <div class="cat-content-hover">
-                                                            <div class="content-hover-inner">
-                                                                <div class="icon">
-                                                                    <span class="icon-building"></span>
-                                                                </div>
-                                                                <h3 class="title">Hotels</h3>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                    <a href="#" class="cat-item cat-sopping">
-                                                        <figure class="cat-thumb">  
-                                                            <img src="assets/images/categories/component/3.jpg" alt="Thmubnail" /> 
-                                                        </figure>
-                                                        
-                                                        <div class="cat-content">
-                                                            <div class="cat-content-inner">
-                                                                <p class="listing-no">35</p>
-                                                                <h3 class="title">Shopping</h3>
-                                                            </div>
-                                                        </div>
-                                                        <div class="cat-content-hover">
-                                                            <div class="content-hover-inner">
-                                                                <div class="icon">
-                                                                    <span class="icon-shopping-cart"></span>
-                                                                </div>
-                                                                <h3 class="title">Shopping</h3>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                    <a href="#" class="cat-item cat-places">
-                                                        <figure class="cat-thumb">  
-                                                            <img src="assets/images/categories/component/4.jpg" alt="Thmubnail" /> 
-                                                        </figure>
-                                                        
-                                                        <div class="cat-content">
-                                                            <div class="cat-content-inner">
-                                                                <p class="listing-no">80</p>
-                                                                <h3 class="title">Places</h3>
-                                                            </div>
-                                                        </div>
-                                                        <div class="cat-content-hover">
-                                                            <div class="content-hover-inner">
-                                                                <div class="icon">
-                                                                    <span class="icon-vynil"></span>
-                                                                </div>
-                                                                <h3 class="title">Places</h3>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                    <a href="#" class="cat-item cat-nightlife">
-                                                        <figure class="cat-thumb">  
-                                                            <img src="assets/images/categories/component/1.jpg" alt="Thmubnail" /> 
-                                                        </figure>
-                                                        
-                                                        <div class="cat-content">
-                                                            <div class="cat-content-inner">
-                                                                <p class="listing-no">20</p>
-                                                                <h3 class="title">Nightlife</h3>
-                                                            </div>
-                                                        </div>
-                                                        <div class="cat-content-hover">
-                                                            <div class="content-hover-inner">
-                                                                <div class="icon">
-                                                                    <span class="icon-cafe"></span>
-                                                                </div>
-                                                                <h3 class="title">Nightlife</h3>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                    <a href="#" class="cat-item cat-hotel">
-                                                        <figure class="cat-thumb">  
-                                                            <img src="assets/images/categories/component/2.jpg" alt="Thmubnail" /> 
-                                                        </figure>
-                                                        
-                                                        <div class="cat-content">
-                                                            <div class="cat-content-inner">
-                                                                <p class="listing-no">10</p>
-                                                                <h3 class="title">Hotels</h3>
-                                                            </div>
-                                                        </div>
-                                                        <div class="cat-content-hover">
-                                                            <div class="content-hover-inner">
-                                                                <div class="icon">
-                                                                    <span class="icon-building"></span>
-                                                                </div>
-                                                                <h3 class="title">Hotels</h3>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                    <a href="#" class="cat-item cat-sopping">
-                                                        <figure class="cat-thumb">  
-                                                            <img src="assets/images/categories/component/3.jpg" alt="Thmubnail" /> 
-                                                        </figure>
-                                                        
-                                                        <div class="cat-content">
-                                                            <div class="cat-content-inner">
-                                                                <p class="listing-no">35</p>
-                                                                <h3 class="title">Shopping</h3>
-                                                            </div>
-                                                        </div>
-                                                        <div class="cat-content-hover">
-                                                            <div class="content-hover-inner">
-                                                                <div class="icon">
-                                                                    <span class="icon-shopping-cart"></span>
-                                                                </div>
-                                                                <h3 class="title">Shopping</h3>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                    <a href="#" class="cat-item cat-places">
-                                                        <figure class="cat-thumb">  
-                                                            <img src="assets/images/categories/component/4.jpg" alt="Thmubnail" /> 
-                                                        </figure>
-                                                        
-                                                        <div class="cat-content">
-                                                            <div class="cat-content-inner">
-                                                                <p class="listing-no">80</p>
-                                                                <h3 class="title">Places</h3>
-                                                            </div>
-                                                        </div>
-                                                        <div class="cat-content-hover">
-                                                            <div class="content-hover-inner">
-                                                                <div class="icon">
-                                                                    <span class="icon-vynil"></span>
-                                                                </div>
-                                                                <h3 class="title">Places</h3>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                            </li>
+                                            
                                             <li>
-                                                <a class="active" href="#">Listing</a>
+                                                <a class="active" href="#">Categories</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="listing-grid.html">Listing Grid</a></li>
-                                                    <li><a href="listing-list.html">Listing List</a></li>
-                                                    <li><a href="listing-map.html">Listing map</a></li>
-                                                    <li><a href="listing-map-grid.html">Listing map Grid</a></li>
-                                                    <li><a href="listing-map-list.html">Listing map List</a></li>
-                                                    <li><a href="listing-details.html">Listing details one</a></li>
-                                                    <li><a href="listing-details-two.html">Listing details two</a></li>
-                                                    <li><a href="listing-details-three.html">Listing details three</a></li>
+                                                    <li><a href="#">Accounting & Bookkeeping</a></li>
+                                                    <li><a href="#">E-Commerce Store Management</a></li>
+                                                    <li><a href="#">Lead Generation</a></li>
+                                                    <li><a href="#">CRM Management</a></li>
+                                                    <li><a href="#">Business Consulting</a></li>
+                                                    <li><a href="#">Virtual Assistant</a></li>
+                                                   
                                                 </ul>
                                             </li>                                    
                                            
@@ -434,13 +273,13 @@ class Business extends React.Component{
                         <div class="box-inner-content">
                             <div class="listing-gallery-slide owl-carousel carousel-nav-dots">
                                 <div class="item">
-                                    <img src="assets/images/todo/single/gallery/B1.jpg" alt="img" />
+                                    <img src={business1} alt="img" />
                                 </div>
                                 <div class="item">
-                                    <img src="assets/images/todo/single/gallery/B2.jpg" alt="img" />
+                                    <img src={business2} alt="img" />
                                 </div>
                                 <div class="item">
-                                    <img src="assets/images/todo/single/gallery/B1.jpg" alt="img" />
+                                    <img src={business3} alt="img" />
                                 </div>							
                             </div>
                         </div>
@@ -690,9 +529,6 @@ class Business extends React.Component{
                             </div>
                         </aside>
                         
-                        
-
-
                     </div>
                 </div>
             </div>
