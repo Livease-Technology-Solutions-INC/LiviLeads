@@ -15,10 +15,8 @@ class Business extends React.Component{
                     <div class="header-navigation-left">
                       
                         <div class="site-branding">
-                            <a href="index.html">
-                            <img src="assets/images/logo/Logo 02.png" style={{ height: '40px', width: '140px' }} alt="Site Logo" />
-
-
+                            <a href="index.html"> 
+                            <img src="assets/images/logo/Logo 02.png" alt="Site Logo" />
                             </a>
                         </div>
                         <div class="header-search-form">
@@ -401,7 +399,7 @@ class Business extends React.Component{
 
 
 <div class="single-listing-todo-block style-three pd-b-100">
-    <div class="listing-todo-thumbnail-area bg-image"style="background-image:url('assets/images/todo/business\ \(1\).jpg')"> 
+    <div class="listing-todo-thumbnail-area bg-image"> 
     </div>
     <div class="single-listing-todo-main-area">
         <div class="container">
@@ -476,37 +474,67 @@ class Business extends React.Component{
                                 <div class="rating-overview-right">
                                     <div class="single-progress-bar">
                                         <div class="progress-type">Quality</div>
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
+                                        <div className="progress">
+       <div
+        className="progress-bar"
+        role="progressbar"
+        style={{ width: '85%' }}
+        aria-valuemin="0"
+        aria-valuemax="100"
+      ></div>
+    </div>
                                         <div class="progress-percent">25</div>
                                     </div>
                                     <div class="single-progress-bar">
                                         <div class="progress-type">Space</div>
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
+                                        <div className="progress">
+      <div
+        className="progress-bar"
+        role="progressbar"
+        style={{ width: '60%' }}
+        aria-valuemin="0"
+        aria-valuemax="100"
+      ></div>
+    </div>
                                         <div class="progress-percent">13</div>
                                     </div>
                                     <div class="single-progress-bar">
                                         <div class="progress-type">Price</div>
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
+                                        <div className="progress">
+      <div
+        className="progress-bar"
+        role="progressbar"
+        style={{ width: '60%' }}
+        aria-valuemin="0"
+        aria-valuemax="100"
+      ></div>
+    </div>
                                         <div class="progress-percent">4</div>
                                     </div>
                                     <div class="single-progress-bar">
                                         <div class="progress-type">Service</div>
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
+                                        <div className="progress">
+      <div
+        className="progress-bar"
+        role="progressbar"
+        style={{ width: '50%' }}
+        aria-valuemin="0"
+        aria-valuemax="100"
+      ></div>
+    </div>
                                         <div class="progress-percent">7</div>
                                     </div>
                                     <div class="single-progress-bar">
                                         <div class="progress-type">Location</div>
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" style="width: 35%;" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
+                                        <div className="progress">
+      <div
+        className="progress-bar"
+        role="progressbar"
+        style={{ width: '35%' }}
+        aria-valuemin="0"
+        aria-valuemax="100"
+      ></div>
+    </div>
                                         <div class="progress-percent">5</div>
                                     </div>
                                 </div>
@@ -783,7 +811,7 @@ class Business extends React.Component{
     </div>
 </footer>
 </div>
-);
+ );
         
     }
     }
