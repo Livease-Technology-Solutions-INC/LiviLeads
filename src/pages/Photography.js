@@ -23,11 +23,11 @@ class Photography extends React.Component {
                   <div class="header-navigation-left">
                     <div class="site-branding">
                       <a href="index.html">
-                        <img
-                          src={logimg}
-                          style="height: 40px; width: 120px;"
-                          alt="Site Logo"
-                        />
+                      <img
+                           src={logimg}
+                         style={{ height: '40px', width: '120px' }}
+                         alt="Site Logo"
+                             />
                       </a>
                     </div>
                     <div class="header-search-form">
