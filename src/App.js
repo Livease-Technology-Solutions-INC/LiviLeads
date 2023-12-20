@@ -1,5 +1,5 @@
 import Home from './pages/home.js';
-import Photography from './pages/photography.js';
+import Photography from './pages/Photography.js';
 import Business from './pages/business.js';
 import '../src/assets/css/owl.carousel.min.css';
 import './assets/css/style.css';
