@@ -1,8 +1,8 @@
 import Home from './pages/home.js';
 import Photography from './pages/photography.js';
-import Business from  './pages/business.js';
-import  '../src/assets/css/owl.carousel.min.css';
-import  './assets/css/style.css';
+import Business from './pages/business.js';
+import '../src/assets/css/owl.carousel.min.css';
+import './assets/css/style.css';
 import '../src/assets/css/bootstrap.min.css';
 import '../src/assets/css/chartist.min.css';
 import '../src/assets/css/fontawesome.all.min.css';
@@ -17,11 +17,10 @@ import '../src/assets/css/trackpad-scroll-emulator.css';
 import './App.css';
 function App() {
   return (
-    <div >
-       <Home />
-       <Photography />
-       <Business />
-      
+    <div>
+      <Home />
+      <Photography />
+      <Business />
     </div>
   );
 }
