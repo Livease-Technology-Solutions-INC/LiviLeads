@@ -1,6 +1,6 @@
-import Home from './pages/home';
-import Photography from './pages/photography';
-import Business from  './pages/business';
+import Home from './pages/home.js';
+import Photography from './pages/photography.js';
+import Business from  './pages/business.js';
 import  '../src/assets/css/owl.carousel.min.css';
 import  './assets/css/style.css';
 import '../src/assets/css/bootstrap.min.css';
