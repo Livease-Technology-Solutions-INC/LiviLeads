@@ -34,7 +34,7 @@ class Home extends React.Component {
 								<div class="navigation-area">
 									<div class="header-navigation-left">
 										<div class="site-branding">
-											<a href="index.html">
+											<a href="/">
 												<img src={logimg} alt="Livi Leads" />
 											</a>
 										</div>
@@ -576,49 +576,49 @@ class Home extends React.Component {
 
 									<div class="features-cat-area">
 										<div class="features-cat-carousel owl-carousel">
-											<a href="listing-grid.html" class="cat-item">
+											<a href="/listing-grid.html" class="cat-item">
 												<div class="icon">
 													<span class="icon-fast-food"></span>
 												</div>
 												<div class="cat-name">Food & Drinks</div>
 											</a>
 
-											<a href="listing-grid.html" class="cat-item">
+											<a href="/listing-grid.html" class="cat-item">
 												<div class="icon">
 													<span class="icon-building"></span>
 												</div>
 												<div class="cat-name">Hotels</div>
 											</a>
 
-											<a href="listing-grid.html" class="cat-item">
+											<a href="/listing-grid.html" class="cat-item">
 												<div class="icon">
 													<span class="icon-wrench"></span>
 												</div>
 												<div class="cat-name">Automotive</div>
 											</a>
 
-											<a href="listing-grid.html" class="cat-item">
+											<a href="/listing-grid.html" class="cat-item">
 												<div class="icon">
 													<span class="icon-dress"></span>
 												</div>
 												<div class="cat-name">Nightlife</div>
 											</a>
 
-											<a href="listing-grid.html" class="cat-item">
+											<a href="/listing-grid.html" class="cat-item">
 												<div class="icon">
 													<span class="icon-shopping-cart"></span>
 												</div>
 												<div class="cat-name">Shopping</div>
 											</a>
 
-											<a href="listing-grid.html" class="cat-item">
+											<a href="/listing-grid.html" class="cat-item">
 												<div class="icon">
 													<span class="icon-sunbed"></span>
 												</div>
 												<div class="cat-name">Travels</div>
 											</a>
 
-											<a href="listing-grid.html" class="cat-item">
+											<a href="/listing-grid.html" class="cat-item">
 												<div class="icon">
 													<span class="icon-house"></span>
 												</div>
@@ -860,7 +860,7 @@ class Home extends React.Component {
 									</div>
 									<div class="todo-content">
 										<h3 class="title">
-											<a href="Photography.html">Photography</a>
+											<a href="/Photography.html">Photography</a>
 										</h3>
 										<div class="todo-price-status">
 											<div class="todo-price">$12 - $33</div>
@@ -939,7 +939,7 @@ class Home extends React.Component {
 									</div>
 									<div class="todo-content">
 										<h3 class="title">
-											<a href="listing-details.html">Programming-Tech</a>
+											<a href="/listing-details.html">Programming-Tech</a>
 										</h3>
 										<div class="todo-price-status">
 											<div class="todo-price">$12 - $33</div>
@@ -979,7 +979,7 @@ class Home extends React.Component {
 									</div>
 									<div class="todo-content">
 										<h3 class="title">
-											<a href="listing-details.html">Service Market</a>
+											<a href="/listing-details.html">Service Market</a>
 										</h3>
 										<div class="todo-price-status">
 											<div class="todo-price">$12 - $33</div>
@@ -1018,7 +1018,7 @@ class Home extends React.Component {
 									</div>
 									<div class="todo-content">
 										<h3 class="title">
-											<a href="listing-details.html">Visaguy</a>
+											<a href="/listing-details.html">Visaguy</a>
 										</h3>
 										<div class="todo-price-status">
 											<div class="todo-price">$12 - $33</div>
@@ -1058,7 +1058,7 @@ class Home extends React.Component {
 									</div>
 									<div class="todo-content">
 										<h3 class="title">
-											<a href="listing-details.html">Home Service</a>
+											<a href="/listing-details.html">Home Service</a>
 										</h3>
 										<div class="todo-price-status">
 											<div class="todo-price">$12 - $33</div>
@@ -1140,7 +1140,7 @@ class Home extends React.Component {
 									</div>
 									<div class="todo-content">
 										<h3 class="title">
-											<a href="listing-details.html">Electrician</a>
+											<a href="/listing-details.html">Electrician</a>
 										</h3>
 										<div class="todo-price-status">
 											<div class="todo-price">$12 - $33</div>
@@ -1180,7 +1180,7 @@ class Home extends React.Component {
 									</div>
 									<div class="todo-content">
 										<h3 class="title">
-											<a href="listing-details.html">Prooffice</a>
+											<a href="/listing-details.html">Prooffice</a>
 										</h3>
 										<div class="todo-price-status">
 											<div class="todo-price">$12 - $33</div>
@@ -1384,7 +1384,7 @@ class Home extends React.Component {
 							<div class="row align-items-center">
 								<div class="col-lg-3">
 									<div class="footer-logo">
-										<a href="index.html">
+										<a href="/">
 											<img src={logimg} alt="Logo" />
 										</a>
 									</div>

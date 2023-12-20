@@ -19,7 +19,7 @@ class Business extends React.Component{
                     <div class="header-navigation-left">
                       
                         <div class="site-branding">
-                            <a href="index.html"> 
+                            <a href="/"> 
                             <img src={logimg} alt="Site Logo" />
                             </a>
                         </div>
@@ -67,7 +67,7 @@ class Business extends React.Component{
                                             <li>
                                                 <a href="#">Home</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="index.html">Home one</a></li>
+                                                    <li><a href="/">Home one</a></li>
                                                     
                                                 </ul>
                                             </li>        
@@ -624,7 +624,7 @@ class Business extends React.Component{
         <div class="row align-items-center">
             <div class="col-lg-3">
                 <div class="footer-logo">
-                    <a href="index.html"><img src="assets/images/logo/footer-logo.png" alt="Logo" /></a>
+                    <a href="/"><img src="assets/images/logo/footer-logo.png" alt="Logo" /></a>
                 </div>
             </div>
             <div class="col-lg-6">

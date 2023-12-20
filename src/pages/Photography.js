@@ -22,7 +22,7 @@ class Photography extends React.Component {
                 <div class="navigation-area">
                   <div class="header-navigation-left">
                     <div class="site-branding">
-                      <a href="index.html">
+                      <a href="/">
                       <img
                            src={logimg}
                          style={{ height: '40px', width: '120px' }}
@@ -82,7 +82,7 @@ class Photography extends React.Component {
                                 <a href="#">Home</a>
                                 <ul class="sub-menu">
                                   <li>
-                                    <a href="index.html">Home </a>
+                                    <a href="/">Home </a>
                                   </li>
                                 </ul>
                               </li>
@@ -416,7 +416,7 @@ class Photography extends React.Component {
                   </div>
                   <div class="todo-content">
                     <h3 class="title">
-                      <a href="Photography.html">Wedding Photography</a>
+                      <a href="//Photography.html">Wedding Photography</a>
                     </h3>
                     <div class="todo-price-status">
                       <div class="todo-price">$12 - $33</div>
@@ -459,7 +459,7 @@ class Photography extends React.Component {
                   </div>
                   <div class="todo-content">
                     <h3 class="title">
-                      <a href="Photography.html">Portait Photography</a>
+                      <a href="/Photography.html">Portait Photography</a>
                     </h3>
                     <div class="todo-price-status">
                       <div class="todo-price">$12 - $33</div>
@@ -501,7 +501,7 @@ class Photography extends React.Component {
                   </div>
                   <div class="todo-content">
                     <h3 class="title">
-                      <a href="Photography.html">Event Photography</a>
+                      <a href="/Photography.html">Event Photography</a>
                     </h3>
                     <div class="todo-price-status">
                       <div class="todo-price">$12 - $33</div>
@@ -543,7 +543,7 @@ class Photography extends React.Component {
                   </div>
                   <div class="todo-content">
                     <h3 class="title">
-                      <a href="Photography.html">Travel Photography</a>
+                      <a href="/Photography.html">Travel Photography</a>
                     </h3>
                     <div class="todo-price-status">
                       <div class="todo-price">$12 - $33</div>
@@ -585,7 +585,7 @@ class Photography extends React.Component {
                   </div>
                   <div class="todo-content">
                     <h3 class="title">
-                      <a href="Photography.html">Architecture Photography</a>
+                      <a href="/Photography.html">Architecture Photography</a>
                     </h3>
                     <div class="todo-price-status">
                       <div class="todo-price">$12 - $33</div>
@@ -627,7 +627,7 @@ class Photography extends React.Component {
                   </div>
                   <div class="todo-content">
                     <h3 class="title">
-                      <a href="Photography.html">Fine-art-Photography</a>
+                      <a href="/Photography.html">Fine-art-Photography</a>
                     </h3>
                     <div class="todo-price-status">
                       <div class="todo-price">$12 - $33</div>
@@ -803,7 +803,7 @@ class Photography extends React.Component {
               <div class="row align-items-center">
                 <div class="col-lg-3">
                   <div class="footer-logo">
-                    <a href="index.html">
+                    <a href="/">
                       <img
                         src="assets/images/logo/footer-logo.png"
                         alt="Logo"
