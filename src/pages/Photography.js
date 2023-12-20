@@ -31,7 +31,7 @@ class Photography extends React.Component {
                       </a>
                     </div>
                     <div class="header-search-form">
-                      <form action="#">
+                      <form action="/#">
                         <input
                           type="search"
                           placeholder="What are you looking for?"
@@ -47,7 +47,7 @@ class Photography extends React.Component {
                           <span class="icon-search32"></span>
                         </div>
                         <div class="search-form">
-                          <form action="#">
+                          <form action="/#">
                             <input type="search" placeholder="Search" />
                             <button type="submit">
                               <span class="icon-search32"></span>
@@ -79,7 +79,7 @@ class Photography extends React.Component {
                           <div class="menu-content">
                             <ul class="mainmenu">
                               <li>
-                                <a href="#">Home</a>
+                                <a href="/#">Home</a>
                                 <ul class="sub-menu">
                                   <li>
                                     <a href="/">Home </a>
@@ -87,27 +87,27 @@ class Photography extends React.Component {
                                 </ul>
                               </li>
                               <li>
-                                <a class="" href="#">
+                                <a class="" href="/#">
                                   Services
                                 </a>
                                 <ul class="sub-menu">
                                   <li>
-                                    <a href="#">Wedding Photography </a>
+                                    <a href="/#">Wedding Photography </a>
                                   </li>
                                   <li>
-                                    <a href="#"> Event Photography</a>
+                                    <a href="/#"> Event Photography</a>
                                   </li>
                                   <li>
-                                    <a href="#"> Portrait Photography</a>
+                                    <a href="/#"> Portrait Photography</a>
                                   </li>
                                   <li>
-                                    <a href="#"> Fine Art Photography</a>
+                                    <a href="/#"> Fine Art Photography</a>
                                   </li>
                                   <li>
-                                    <a href="#"> Architectural Photography</a>
+                                    <a href="/#"> Architectural Photography</a>
                                   </li>
                                   <li>
-                                    <a href="#"> Travel Photography</a>
+                                    <a href="/#"> Travel Photography</a>
                                   </li>
                                 </ul>
                               </li>
@@ -119,7 +119,7 @@ class Photography extends React.Component {
 
                     <div class="header-navigation-right">
                       <div class="user-registration-area">
-                        <a class="user-reg-btn" href="#">
+                        <a class="user-reg-btn" href="/#">
                           <span class="icon icon-user-1"></span>
                           <span class="text">Sign In</span>
                         </a>
@@ -149,7 +149,7 @@ class Photography extends React.Component {
                                     />
                                     <span class="icon-key3"></span>
                                     <div class="forget-pass">
-                                      <a class="btn-password" href="#">
+                                      <a class="btn-password" href="/#">
                                         Forget?
                                       </a>
                                     </div>
@@ -169,22 +169,22 @@ class Photography extends React.Component {
                                     <div class="midea-icons">
                                       <ul class="social-share">
                                         <li>
-                                          <a class="facebook" href="#">
+                                          <a class="facebook" href="/#">
                                             <i class="fab fa-facebook-f"></i>
                                           </a>
                                         </li>
                                         <li>
-                                          <a class="twitter" href="#">
+                                          <a class="twitter" href="/#">
                                             <i class="fab fa-twitter"></i>
                                           </a>
                                         </li>
                                         <li>
-                                          <a class="google-plus" href="#">
+                                          <a class="google-plus" href="/#">
                                             <i class="fab fa-google-plus-g"></i>
                                           </a>
                                         </li>
                                         <li>
-                                          <a class="linkedin" href="#">
+                                          <a class="linkedin" href="/#">
                                             <i class="fab fa-linkedin-in"></i>
                                           </a>
                                         </li>
@@ -194,7 +194,7 @@ class Photography extends React.Component {
                                 </form>
                                 <div class="login-form-register-now">
                                   Dont have an account?{" "}
-                                  <a class="btn-register-now" href="#">
+                                  <a class="btn-register-now" href="/#">
                                     Register Now
                                   </a>
                                 </div>
@@ -311,7 +311,7 @@ class Photography extends React.Component {
                                       type="checkbox"
                                     />
                                     <span>I Agree to the </span>{" "}
-                                    <a href="#"> Privacy Policy</a>
+                                    <a href="/#"> Privacy Policy</a>
                                   </label>
                                 </div>
                                 <div class="form-btn-group">
@@ -332,22 +332,22 @@ class Photography extends React.Component {
                                     <div class="midea-icons">
                                       <ul class="social-share">
                                         <li>
-                                          <a class="facebook" href="#">
+                                          <a class="facebook" href="/#">
                                             <i class="fab fa-facebook-f"></i>
                                           </a>
                                         </li>
                                         <li>
-                                          <a class="twitter" href="#">
+                                          <a class="twitter" href="/#">
                                             <i class="fab fa-twitter"></i>
                                           </a>
                                         </li>
                                         <li>
-                                          <a class="google-plus" href="#">
+                                          <a class="google-plus" href="/#">
                                             <i class="fab fa-google-plus-g"></i>
                                           </a>
                                         </li>
                                         <li>
-                                          <a class="linkedin" href="#">
+                                          <a class="linkedin" href="/#">
                                             <i class="fab fa-linkedin-in"></i>
                                           </a>
                                         </li>
@@ -423,7 +423,7 @@ class Photography extends React.Component {
                     </div>
 
                     <label class="container">
-                      <a href="#">Zoom Photography</a>
+                      <a href="/#">Zoom Photography</a>
                       <input type="checkbox" checked="checked" />
                       <span class="checkmark"></span>
                     </label>
@@ -465,7 +465,7 @@ class Photography extends React.Component {
                       <div class="todo-price">$12 - $33</div>
                     </div>
                     <label class="container">
-                      <a href="#">Zoom Photography</a>
+                      <a href="/#">Zoom Photography</a>
                       <input type="checkbox" checked="checked" />
                       <span class="checkmark"></span>
                     </label>
@@ -507,7 +507,7 @@ class Photography extends React.Component {
                       <div class="todo-price">$12 - $33</div>
                     </div>
                     <label class="container">
-                      <a href="#">Zoom Photography</a>
+                      <a href="/#">Zoom Photography</a>
                       <input type="checkbox" checked="checked" />
                       <span class="checkmark"></span>
                     </label>
@@ -549,7 +549,7 @@ class Photography extends React.Component {
                       <div class="todo-price">$12 - $33</div>
                     </div>
                     <label class="container">
-                      <a href="#">Zoom Photography</a>
+                      <a href="/#">Zoom Photography</a>
                       <input type="checkbox" checked="checked" />
                       <span class="checkmark"></span>
                     </label>
@@ -591,7 +591,7 @@ class Photography extends React.Component {
                       <div class="todo-price">$12 - $33</div>
                     </div>
                     <label class="container">
-                      <a href="#">Zoom Photography</a>
+                      <a href="/#">Zoom Photography</a>
                       <input type="checkbox" checked="checked" />
                       <span class="checkmark"></span>
                     </label>
@@ -633,7 +633,7 @@ class Photography extends React.Component {
                       <div class="todo-price">$12 - $33</div>
                     </div>
                     <label class="container">
-                      <a href="#">Zoom Photography</a>
+                      <a href="/#">Zoom Photography</a>
                       <input type="checkbox" checked="checked" />
                       <span class="checkmark"></span>
                     </label>
@@ -672,22 +672,22 @@ class Photography extends React.Component {
                     </div>
                     <ul class="list">
                       <li>
-                        <a href="#">
+                        <a href="/#">
                           Portrait<span>4</span>
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="/#">
                           Wedding Shoot<span>6</span>
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="/#">
                           Fashion Photography<span>7</span>
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="/#">
                           Fine Art Photography<span>10</span>
                         </a>
                       </li>
@@ -705,23 +705,23 @@ class Photography extends React.Component {
                     </div>
                     <ul class="list">
                       <li>
-                        <a href="#">
+                        <a href="/#">
                           Painting<span>4</span>
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="/#">
                           {" "}
                           Grocery Delivery<span>6</span>
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="/#">
                           Electrician<span>7</span>
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="/#">
                           Carpenter<span>10</span>
                         </a>
                       </li>
@@ -739,22 +739,22 @@ class Photography extends React.Component {
                     </div>
                     <ul class="list">
                       <li>
-                        <a href="#">
+                        <a href="/#">
                           Web Developer<span>4</span>
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="/#">
                           WordPress Developer<span>6</span>
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="/#">
                           SEO<span>7</span>
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="/#">
                           Software Developer<span>10</span>
                         </a>
                       </li>
@@ -772,22 +772,22 @@ class Photography extends React.Component {
                     </div>
                     <ul class="list">
                       <li>
-                        <a href="#">
+                        <a href="/#">
                           Plumbing Service<span>4</span>
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="/#">
                           cleaning Service<span>6</span>
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="/#">
                           Laundry services<span>7</span>
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="/#">
                           Beauty services<span>10</span>
                         </a>
                       </li>
@@ -814,38 +814,38 @@ class Photography extends React.Component {
                 <div class="col-lg-6">
                   <ul class="footer-menu">
                     <li>
-                      <a href="#">Join Us</a>
+                      <a href="/#">Join Us</a>
                     </li>
                     <li>
-                      <a href="#">Privcay Policy</a>
+                      <a href="/#">Privcay Policy</a>
                     </li>
                     <li>
-                      <a href="#">Support Center</a>
+                      <a href="/#">Support Center</a>
                     </li>
                     <li>
-                      <a href="#">Contact</a>
+                      <a href="/#">Contact</a>
                     </li>
                   </ul>
                 </div>
                 <div class="col-lg-3">
                   <ul class="footer-social">
                     <li>
-                      <a href="#">
+                      <a href="/#">
                         <i class="fab fa-facebook-f"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="/#">
                         <i class="fab fa-twitter"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="/#">
                         <i class="fab fa-instagram"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="/#">
                         <i class="fab fa-google-plus-g"></i>
                       </a>
                     </li>

@@ -44,7 +44,7 @@ class Home extends React.Component {
 													<span class="icon-search32"></span>
 												</div>
 												<div class="search-form">
-													<form action="#">
+													<form action="/#">
 														<input type="search" placeholder="Search" />
 														<button type="submit">
 															<span class="icon-search32"></span>
@@ -75,7 +75,7 @@ class Home extends React.Component {
 												<div class="menu-content">
 													<ul class="mainmenu">
 														<li>
-															<a class="active" href="#">
+															<a class="active" href="/#">
 																Home
 															</a>
 															<ul class="sub-menu">
@@ -85,9 +85,9 @@ class Home extends React.Component {
 															</ul>
 														</li>
 														<li class="megamenu">
-															<a href="#">Explore</a>
+															<a href="/#">Explore</a>
 															<div class="sub-menu megamenu-main megamenu-carousel carousel-nav-text owl-carousel">
-																<a href="#" class="cat-item cat-nightlife">
+																<a href="/#" class="cat-item cat-nightlife">
 																	<figure class="cat-thumb">
 																		<img
 																			src="assets/images/todo/photography.jpg"
@@ -110,7 +110,7 @@ class Home extends React.Component {
 																		</div>
 																	</div>
 																</a>
-																<a href="#" class="cat-item cat-hotel">
+																<a href="/#" class="cat-item cat-hotel">
 																	<figure class="cat-thumb">
 																		<img
 																			src="assets/images/todo/business (1).jpg"
@@ -133,7 +133,7 @@ class Home extends React.Component {
 																		</div>
 																	</div>
 																</a>
-																<a href="#" class="cat-item cat-sopping">
+																<a href="/#" class="cat-item cat-sopping">
 																	<figure class="cat-thumb">
 																		<img
 																			src="assets/images/todo/programmer.jpg"
@@ -156,7 +156,7 @@ class Home extends React.Component {
 																		</div>
 																	</div>
 																</a>
-																<a href="#" class="cat-item cat-places">
+																<a href="/#" class="cat-item cat-places">
 																	<figure class="cat-thumb">
 																		<img
 																			src="assets/images/todo/service market.jpg"
@@ -179,7 +179,7 @@ class Home extends React.Component {
 																		</div>
 																	</div>
 																</a>
-																<a href="#" class="cat-item cat-nightlife">
+																<a href="/#" class="cat-item cat-nightlife">
 																	<figure class="cat-thumb">
 																		<img
 																			src="assets/images/todo/visaguy (1).jpg"
@@ -202,7 +202,7 @@ class Home extends React.Component {
 																		</div>
 																	</div>
 																</a>
-																<a href="#" class="cat-item cat-hotel">
+																<a href="/#" class="cat-item cat-hotel">
 																	<figure class="cat-thumb">
 																		<img
 																			src="assets/images/todo/home service.jpg"
@@ -225,7 +225,7 @@ class Home extends React.Component {
 																		</div>
 																	</div>
 																</a>
-																<a href="#" class="cat-item cat-sopping">
+																<a href="/#" class="cat-item cat-sopping">
 																	<figure class="cat-thumb">
 																		<img
 																			src="assets/images/todo/documentation.jpg"
@@ -252,7 +252,7 @@ class Home extends React.Component {
 																		</div>
 																	</div>
 																</a>
-																<a href="#" class="cat-item cat-places">
+																<a href="/#" class="cat-item cat-places">
 																	<figure class="cat-thumb">
 																		<img
 																			src="assets/images/todo/prooffice.jpg"
@@ -289,7 +289,7 @@ class Home extends React.Component {
 
 									<div class="header-navigation-right">
 										<div class="user-registration-area">
-											<a class="user-reg-btn" href="#">
+											<a class="user-reg-btn" href="/#">
 												<span class="icon icon-user-1"></span>
 												<span class="text">Sign In</span>
 											</a>
@@ -319,7 +319,7 @@ class Home extends React.Component {
 																	/>
 																	<span class="icon-key3"></span>
 																	<div class="forget-pass">
-																		<a class="btn-password" href="#">
+																		<a class="btn-password" href="/#">
 																			Forget?
 																		</a>
 																	</div>
@@ -339,22 +339,22 @@ class Home extends React.Component {
 																	<div class="midea-icons">
 																		<ul class="social-share">
 																			<li>
-																				<a class="facebook" href="#">
+																				<a class="facebook" href="/#">
 																					<i class="fab fa-facebook-f"></i>
 																				</a>
 																			</li>
 																			<li>
-																				<a class="twitter" href="#">
+																				<a class="twitter" href="/#">
 																					<i class="fab fa-twitter"></i>
 																				</a>
 																			</li>
 																			<li>
-																				<a class="google-plus" href="#">
+																				<a class="google-plus" href="/#">
 																					<i class="fab fa-google-plus-g"></i>
 																				</a>
 																			</li>
 																			<li>
-																				<a class="linkedin" href="#">
+																				<a class="linkedin" href="/#">
 																					<i class="fab fa-linkedin-in"></i>
 																				</a>
 																			</li>
@@ -364,7 +364,7 @@ class Home extends React.Component {
 															</form>
 															<div class="login-form-register-now">
 																Dont have an account?{' '}
-																<a class="btn-register-now" href="#">
+																<a class="btn-register-now" href="/#">
 																	Register Now
 																</a>
 															</div>
@@ -481,7 +481,7 @@ class Home extends React.Component {
 																		type="checkbox"
 																	/>
 																	<span>I Agree to the </span>{' '}
-																	<a href="#"> Privacy Policy</a>
+																	<a href="/#"> Privacy Policy</a>
 																</label>
 															</div>
 															<div class="form-btn-group">
@@ -502,22 +502,22 @@ class Home extends React.Component {
 																	<div class="midea-icons">
 																		<ul class="social-share">
 																			<li>
-																				<a class="facebook" href="#">
+																				<a class="facebook" href="/#">
 																					<i class="fab fa-facebook-f"></i>
 																				</a>
 																			</li>
 																			<li>
-																				<a class="twitter" href="#">
+																				<a class="twitter" href="/#">
 																					<i class="fab fa-twitter"></i>
 																				</a>
 																			</li>
 																			<li>
-																				<a class="google-plus" href="#">
+																				<a class="google-plus" href="/#">
 																					<i class="fab fa-google-plus-g"></i>
 																				</a>
 																			</li>
 																			<li>
-																				<a class="linkedin" href="#">
+																				<a class="linkedin" href="/#">
 																					<i class="fab fa-linkedin-in"></i>
 																				</a>
 																			</li>
@@ -552,7 +552,7 @@ class Home extends React.Component {
 									<h3 class="banner-subtitle">
 										Our platform connects you with trusted local service
 									</h3>
-									<form action="#" class="advance-search-form">
+									<form action="/#" class="advance-search-form">
 										<div class="inner-form">
 											<div class="advance-form-input search">
 												<input
@@ -651,7 +651,7 @@ class Home extends React.Component {
 
 						<div class="row">
 							<div class="col-lg-6">
-								<a href="#" class="cat-item cat-food">
+								<a href="/#" class="cat-item cat-food">
 									<figure class="cat-thumb">
 										<img src={sideB} alt="Thmubnail" />
 									</figure>
@@ -674,7 +674,7 @@ class Home extends React.Component {
 							</div>
 
 							<div class="col-lg-3 col-md-6">
-								<a href="#" class="cat-item cat-nightlife">
+								<a href="/#" class="cat-item cat-nightlife">
 									<figure class="cat-thumb">
 										<img src={ecoB} alt="Thmubnail" />
 									</figure>
@@ -697,7 +697,7 @@ class Home extends React.Component {
 							</div>
 
 							<div class="col-lg-3 col-md-6">
-								<a href="#" class="cat-item cat-hotel">
+								<a href="/#" class="cat-item cat-hotel">
 									<figure class="cat-thumb">
 										<img src={web} alt="Thmubnail" />
 									</figure>
@@ -720,7 +720,7 @@ class Home extends React.Component {
 							</div>
 
 							<div class="col-lg-3 col-md-6">
-								<a href="#" class="cat-item cat-service">
+								<a href="/#" class="cat-item cat-service">
 									<figure class="cat-thumb">
 										<img src={log} alt="Thmubnail" />
 									</figure>
@@ -743,7 +743,7 @@ class Home extends React.Component {
 							</div>
 
 							<div class="col-lg-3 col-md-6">
-								<a href="#" class="cat-item cat-sopping">
+								<a href="/#" class="cat-item cat-sopping">
 									<figure class="cat-thumb">
 										<img src={onlineB} alt="Thmubnail" />
 									</figure>
@@ -766,7 +766,7 @@ class Home extends React.Component {
 							</div>
 
 							<div class="col-lg-6">
-								<a href="#" class="cat-item cat-places">
+								<a href="/#" class="cat-item cat-places">
 									<figure class="cat-thumb">
 										<img src={seo} alt="Thmubnail" />
 									</figure>
@@ -839,10 +839,10 @@ class Home extends React.Component {
 										</figure>
 										<div class="todo-overlay-info">
 											<div class="todo-type-cat">
-												<a href="#" class="offer">
+												<a href="/#" class="offer">
 													Wedding
 												</a>
-												<a href="#" class="nightlife">
+												<a href="/#" class="nightlife">
 													Portrait
 												</a>
 											</div>
@@ -851,7 +851,7 @@ class Home extends React.Component {
 													<span>4.8</span>19 Ratings
 												</div>
 												<div class="save">
-													<a href="#" class="">
+													<a href="/#" class="">
 														<i class="fa fa-heart"></i>
 													</a>
 												</div>
@@ -879,7 +879,7 @@ class Home extends React.Component {
 										</figure>
 										<div class="todo-overlay-info">
 											<div class="todo-type-cat">
-												<a href="#" class="hotel">
+												<a href="/#" class="hotel">
 													Business
 												</a>
 											</div>
@@ -888,7 +888,7 @@ class Home extends React.Component {
 													<span>4.8</span>19 Ratings
 												</div>
 												<div class="save">
-													<a href="#" class="">
+													<a href="/#" class="">
 														<i class="fa fa-heart"></i>
 													</a>
 												</div>
@@ -918,10 +918,10 @@ class Home extends React.Component {
 										</figure>
 										<div class="todo-overlay-info">
 											<div class="todo-type-cat">
-												<a href="#" class="rated">
+												<a href="/#" class="rated">
 													top rated
 												</a>
-												<a href="#" class="fitness">
+												<a href="/#" class="fitness">
 													samples
 												</a>
 											</div>
@@ -930,7 +930,7 @@ class Home extends React.Component {
 													<span>4.8</span>19 Ratings
 												</div>
 												<div class="save">
-													<a href="#" class="">
+													<a href="/#" class="">
 														<i class="fa fa-heart"></i>
 													</a>
 												</div>
@@ -958,10 +958,10 @@ class Home extends React.Component {
 										</figure>
 										<div class="todo-overlay-info">
 											<div class="todo-type-cat">
-												<a href="#" class="sale">
+												<a href="/#" class="sale">
 													Cleaning
 												</a>
-												<a href="#" class="services">
+												<a href="/#" class="services">
 													Plumbing
 												</a>
 											</div>
@@ -970,7 +970,7 @@ class Home extends React.Component {
 													<span>4.8</span>19 Ratings
 												</div>
 												<div class="save">
-													<a href="#" class="">
+													<a href="/#" class="">
 														<i class="fa fa-heart"></i>
 													</a>
 												</div>
@@ -997,10 +997,10 @@ class Home extends React.Component {
 										</figure>
 										<div class="todo-overlay-info">
 											<div class="todo-type-cat">
-												<a href="#" class="limited">
+												<a href="/#" class="limited">
 													limited
 												</a>
-												<a href="#" class="services">
+												<a href="/#" class="services">
 													services
 												</a>
 											</div>
@@ -1009,7 +1009,7 @@ class Home extends React.Component {
 													<span>4.8</span>19 Ratings
 												</div>
 												<div class="save">
-													<a href="#" class="">
+													<a href="/#" class="">
 														<i class="fa fa-heart"></i>
 													</a>
 												</div>
@@ -1037,10 +1037,10 @@ class Home extends React.Component {
 										</figure>
 										<div class="todo-overlay-info">
 											<div class="todo-type-cat">
-												<a href="#" class="restaurant">
+												<a href="/#" class="restaurant">
 													Designs
 												</a>
-												<a href="#" class="sale">
+												<a href="/#" class="sale">
 													sale
 												</a>
 											</div>
@@ -1049,7 +1049,7 @@ class Home extends React.Component {
 													<span>4.8</span>19 Ratings
 												</div>
 												<div class="save">
-													<a href="#" class="">
+													<a href="/#" class="">
 														<i class="fa fa-heart"></i>
 													</a>
 												</div>
@@ -1077,10 +1077,10 @@ class Home extends React.Component {
 										</figure>
 										<div class="todo-overlay-info">
 											<div class="todo-type-cat">
-												<a href="#" class="limited">
+												<a href="/#" class="limited">
 													limited
 												</a>
-												<a href="#" class="services">
+												<a href="/#" class="services">
 													services
 												</a>
 											</div>
@@ -1089,7 +1089,7 @@ class Home extends React.Component {
 													<span>4.8</span>19 Ratings
 												</div>
 												<div class="save">
-													<a href="#" class="">
+													<a href="/#" class="">
 														<i class="fa fa-heart"></i>
 													</a>
 												</div>
@@ -1119,10 +1119,10 @@ class Home extends React.Component {
 										</figure>
 										<div class="todo-overlay-info">
 											<div class="todo-type-cat">
-												<a href="#" class="limited">
+												<a href="/#" class="limited">
 													limited
 												</a>
-												<a href="#" class="services">
+												<a href="/#" class="services">
 													services
 												</a>
 											</div>
@@ -1131,7 +1131,7 @@ class Home extends React.Component {
 													<span>4.8</span>19 Ratings
 												</div>
 												<div class="save">
-													<a href="#" class="">
+													<a href="/#" class="">
 														<i class="fa fa-heart"></i>
 													</a>
 												</div>
@@ -1159,10 +1159,10 @@ class Home extends React.Component {
 										</figure>
 										<div class="todo-overlay-info">
 											<div class="todo-type-cat">
-												<a href="#" class="restaurant">
+												<a href="/#" class="restaurant">
 													Check
 												</a>
-												<a href="#" class="sale">
+												<a href="/#" class="sale">
 													sale
 												</a>
 											</div>
@@ -1171,7 +1171,7 @@ class Home extends React.Component {
 													<span>4.8</span>19 Ratings
 												</div>
 												<div class="save">
-													<a href="#" class="">
+													<a href="/#" class="">
 														<i class="fa fa-heart"></i>
 													</a>
 												</div>
@@ -1256,22 +1256,22 @@ class Home extends React.Component {
 										</div>
 										<ul class="list">
 											<li>
-												<a href="#">
+												<a href="/#">
 													Portrait<span>4</span>
 												</a>
 											</li>
 											<li>
-												<a href="#">
+												<a href="/#">
 													Wedding Shoot<span>6</span>
 												</a>
 											</li>
 											<li>
-												<a href="#">
+												<a href="/#">
 													Fashion Photography<span>7</span>
 												</a>
 											</li>
 											<li>
-												<a href="#">
+												<a href="/#">
 													Fine Art Photography<span>10</span>
 												</a>
 											</li>
@@ -1288,23 +1288,23 @@ class Home extends React.Component {
 										</div>
 										<ul class="list">
 											<li>
-												<a href="#">
+												<a href="/#">
 													Painting<span>4</span>
 												</a>
 											</li>
 											<li>
-												<a href="#">
+												<a href="/#">
 													{' '}
 													Grocery Delivery<span>6</span>
 												</a>
 											</li>
 											<li>
-												<a href="#">
+												<a href="/#">
 													Electrician<span>7</span>
 												</a>
 											</li>
 											<li>
-												<a href="#">
+												<a href="/#">
 													Carpenter<span>10</span>
 												</a>
 											</li>
@@ -1321,22 +1321,22 @@ class Home extends React.Component {
 										</div>
 										<ul class="list">
 											<li>
-												<a href="#">
+												<a href="/#">
 													Web Developer<span>4</span>
 												</a>
 											</li>
 											<li>
-												<a href="#">
+												<a href="/#">
 													WordPress Developer<span>6</span>
 												</a>
 											</li>
 											<li>
-												<a href="#">
+												<a href="/#">
 													SEO<span>7</span>
 												</a>
 											</li>
 											<li>
-												<a href="#">
+												<a href="/#">
 													Software Developer<span>10</span>
 												</a>
 											</li>
@@ -1353,22 +1353,22 @@ class Home extends React.Component {
 										</div>
 										<ul class="list">
 											<li>
-												<a href="#">
+												<a href="/#">
 													Plumbing Service<span>4</span>
 												</a>
 											</li>
 											<li>
-												<a href="#">
+												<a href="/#">
 													cleaning Service<span>6</span>
 												</a>
 											</li>
 											<li>
-												<a href="#">
+												<a href="/#">
 													Laundry services<span>7</span>
 												</a>
 											</li>
 											<li>
-												<a href="#">
+												<a href="/#">
 													Beauty services<span>10</span>
 												</a>
 											</li>
@@ -1392,38 +1392,38 @@ class Home extends React.Component {
 								<div class="col-lg-6">
 									<ul class="footer-menu">
 										<li>
-											<a href="#">Join Us</a>
+											<a href="/#">Join Us</a>
 										</li>
 										<li>
-											<a href="#">Privcay Policy</a>
+											<a href="/#">Privcay Policy</a>
 										</li>
 										<li>
-											<a href="#">Support Center</a>
+											<a href="/#">Support Center</a>
 										</li>
 										<li>
-											<a href="#">Contact</a>
+											<a href="/#">Contact</a>
 										</li>
 									</ul>
 								</div>
 								<div class="col-lg-3">
 									<ul class="footer-social">
 										<li>
-											<a href="#">
+											<a href="/#">
 												<i class="fab fa-facebook-f"></i>
 											</a>
 										</li>
 										<li>
-											<a href="#">
+											<a href="/#">
 												<i class="fab fa-twitter"></i>
 											</a>
 										</li>
 										<li>
-											<a href="#">
+											<a href="/#">
 												<i class="fab fa-instagram"></i>
 											</a>
 										</li>
 										<li>
-											<a href="#">
+											<a href="/#">
 												<i class="fab fa-google-plus-g"></i>
 											</a>
 										</li>
