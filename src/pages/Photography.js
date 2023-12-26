@@ -1,4 +1,5 @@
 import React from "react";
+import lazyload from 'react-lazyload';
 import logimg from "../assets/images/logo/lg.png";
 import img1 from "../assets/images/todo/single/slide/img1.jpg";
 import img2 from "../assets/images/todo/single/slide/img2.jpg";
@@ -11,6 +12,7 @@ import eventphotography from "../assets/images/todo/single/photo/event.jpg";
 import fineart from "../assets/images/todo/single/photo/fine art.jpg";
 import Architecture from "../assets/images/todo/single/photo/ar.jpg";
 import travel from "../assets/images/todo/single/photo/travel.jpg";
+import footerlogo from "../assets/images/logo/footer-logo.png";
 class Photography extends React.Component {
   render() {
     return (
@@ -27,6 +29,7 @@ class Photography extends React.Component {
                            src={logimg}
                          style={{ height: '40px', width: '120px' }}
                          alt="Site Logo"
+                         loading="lazy"
                              />
                       </a>
                     </div>
@@ -371,25 +374,25 @@ class Photography extends React.Component {
         <div class="single-listing-todo-block pd-b-100">
           <div class="listing-todo-thumbnail-carousel carousel-nav-rectangle owl-carousel">
             <div class="item">
-              <img src={img1} alt="thumb" />
+              <img src={img1} alt="thumb" loading="lazy" />
             </div>
             <div class="item">
-              <img src={img2} alt="thumb" />
+              <img src={img2} alt="thumb" loading="lazy" />
             </div>
             <div class="item">
-              <img src={img3} alt="thumb" />
+              <img src={img3} alt="thumb" loading="lazy" />
             </div>
             <div class="item">
               <img
                 src={img4}
-                alt="thumb"
+                alt="thumb"  loading="lazy"
               />
             </div>
             <div class="item">
-              <img src={img5} alt="thumb" />
+              <img src={img5} alt="thumb"  loading="lazy" />
             </div>
             <div class="item">
-              <img src={img5} alt="thumb" />
+              <img src={img5} alt="thumb" loading="lazy" />
             </div>
           </div>
         </div>
@@ -404,6 +407,7 @@ class Photography extends React.Component {
                       <img
                         src={wedding}
                         alt="Thmubnail"
+                        loading="lazy"
                       />
                     </figure>
                     <div class="todo-overlay-info">
@@ -447,6 +451,7 @@ class Photography extends React.Component {
                       <img
                         src={portait}
                         alt="Thmubnail"
+                        loading="lazy"
                       />
                     </figure>
                     <div class="todo-overlay-info">
@@ -489,6 +494,7 @@ class Photography extends React.Component {
                       <img
                         src={eventphotography}
                         alt="Thmubnail"
+                        loading="lazy"
                       />
                     </figure>
                     <div class="todo-overlay-info">
@@ -531,6 +537,7 @@ class Photography extends React.Component {
                       <img
                         src={travel}
                         alt="Thmubnail"
+                        loading="lazy"
                       />
                     </figure>
                     <div class="todo-overlay-info">
@@ -573,6 +580,7 @@ class Photography extends React.Component {
                       <img
                         src={Architecture}
                         alt="Thmubnail"
+                        loading="lazy"
                       />
                     </figure>
                     <div class="todo-overlay-info">
@@ -615,6 +623,7 @@ class Photography extends React.Component {
                       <img
                         src={fineart}
                         alt="Thmubnail"
+                        loading="lazy"
                       />
                     </figure>
                     <div class="todo-overlay-info">
@@ -804,9 +813,9 @@ class Photography extends React.Component {
                 <div class="col-lg-3">
                   <div class="footer-logo">
                     <a href="/">
-                      <img
-                        src="assets/images/logo/footer-logo.png"
+                      <img src={footerlogo}
                         alt="Logo"
+                        loading="lazy"
                       />
                     </a>
                   </div>
