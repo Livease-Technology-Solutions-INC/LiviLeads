@@ -1,4 +1,5 @@
 import React from "react";
+import lazyload from 'react-lazyload';
 import logimg from "../assets/images/logo/lg.png";
 import business1 from "../assets/images/todo/single/gallery/B1.jpg";
 import business2 from "../assets/images/todo/single/gallery/B2.jpg";
@@ -9,8 +10,6 @@ class Business extends React.Component {
         return (
 
             <div class="site-content">
-
-
                 <header class="site-header default-header-style">
                     <div class="container-fluid">
                         <div class="row align-items-center">
@@ -20,7 +19,7 @@ class Business extends React.Component {
 
                                         <div class="site-branding">
                                             <a href="/">
-                                                <img src={logimg} alt="Site Logo" />
+                                                <img src={logimg} alt="Site Logo"  loading="lazy" />
                                             </a>
                                         </div>
                                         <div class="header-search-form">
@@ -273,13 +272,13 @@ class Business extends React.Component {
                                             <div class="box-inner-content">
                                                 <div class="listing-gallery-slide owl-carousel carousel-nav-dots">
                                                     <div class="item">
-                                                        <img src={business1} alt="img" />
+                                                        <img src={business1} alt="img"   loading="lazy" />
                                                     </div>
                                                     <div class="item">
-                                                        <img src={business2} alt="img" />
+                                                        <img src={business2} alt="img"   loading="lazy" />
                                                     </div>
                                                     <div class="item">
-                                                        <img src={business3} alt="img" />
+                                                        <img src={business3} alt="img"   loading="lazy" />
                                                     </div>
                                                 </div>
                                             </div>
